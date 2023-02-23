@@ -1,0 +1,19 @@
+NOTE: 2/23/2023
+
+I attempted to put all of the old files I'd generated for step 3 into a new directory- "old_processshortreads",
+which would hold all the files generated with stacks::process_shortreads. I had to go back a step and
+clean the files from step 2 again, which meant discarding the files generated with process_shortreads, but
+in an attempt to keep them, it looks like the directories became merged somehow. So these are the files 
+that should be in the plates1_2, plate3_r1, and plate3_r2 directories:
+
+Plates 1-2
+- fastp_pl1.sh
+- slurm-3990342.out
+
+Plate 3, run 1
+- fastp_pl3_r1.sh
+- slurm-4012812.out
+
+Plate 3, run 2
+- slurm-4012921.out
+- clean_pl3_r2_fastp.sh
