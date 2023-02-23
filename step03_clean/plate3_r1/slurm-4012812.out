@@ -1,0 +1,3760 @@
+Read1 before filtering:
+total reads: 998513
+total bases: 145606265
+Q20 bases: 135190272(92.8465%)
+Q30 bases: 124801482(85.7116%)
+
+Read2 before filtering:
+total reads: 998513
+total bases: 145868475
+Q20 bases: 140888376(96.5859%)
+Q30 bases: 132796731(91.0387%)
+
+Read1 after filtering:
+total reads: 9298
+total bases: 813616
+Q20 bases: 696539(85.6103%)
+Q30 bases: 637937(78.4076%)
+
+Read2 after filtering:
+total reads: 9298
+total bases: 918007
+Q20 bases: 885128(96.4184%)
+Q30 bases: 836197(91.0883%)
+
+Filtering result:
+reads passed filter: 18596
+reads failed due to low quality: 8630
+reads failed due to too many N: 2
+reads failed due to too short: 0
+reads failed due to too long: 1969798
+
+Duplication rate: 36.5467%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A1_R1_val_1.fq -I 40559-3_R2_A1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A1.fq -O ../../step03_clean/plate3_r1/3_R2_A1.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1404168
+total bases: 126606346
+Q20 bases: 123534303(97.5735%)
+Q30 bases: 118766312(93.8076%)
+
+Read2 before filtering:
+total reads: 1404168
+total bases: 203886428
+Q20 bases: 197891331(97.0596%)
+Q30 bases: 188925598(92.6622%)
+
+Read1 after filtering:
+total reads: 13391
+total bases: 385950
+Q20 bases: 369534(95.7466%)
+Q30 bases: 352987(91.4593%)
+
+Read2 after filtering:
+total reads: 13391
+total bases: 1435857
+Q20 bases: 1372284(95.5725%)
+Q30 bases: 1284760(89.4769%)
+
+Filtering result:
+reads passed filter: 26782
+reads failed due to low quality: 7896
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 2773658
+
+Duplication rate: 64.9996%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A10_R1_val_1.fq -I 40559-3_R2_A10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A10.fq -O ../../step03_clean/plate3_r1/3_R2_A10.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 1561215
+total bases: 135359693
+Q20 bases: 132897082(98.1807%)
+Q30 bases: 128181891(94.6972%)
+
+Read2 before filtering:
+total reads: 1561215
+total bases: 134552643
+Q20 bases: 132368236(98.3765%)
+Q30 bases: 127859396(95.0256%)
+
+Read1 after filtering:
+total reads: 1014966
+total bases: 59508918
+Q20 bases: 58793641(98.798%)
+Q30 bases: 57100186(95.9523%)
+
+Read2 after filtering:
+total reads: 1014966
+total bases: 59432168
+Q20 bases: 58897003(99.0995%)
+Q30 bases: 57400343(96.5813%)
+
+Filtering result:
+reads passed filter: 2029932
+reads failed due to low quality: 6160
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 1086332
+
+Duplication rate: 84.3801%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A11_R1_val_1.fq -I 40559-3_R2_A11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A11.fq -O ../../step03_clean/plate3_r1/3_R2_A11.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 1227212
+total bases: 103938174
+Q20 bases: 102095223(98.2269%)
+Q30 bases: 98612491(94.8761%)
+
+Read2 before filtering:
+total reads: 1227212
+total bases: 104213925
+Q20 bases: 102493094(98.3488%)
+Q30 bases: 99002699(94.9995%)
+
+Read1 after filtering:
+total reads: 820718
+total bases: 48365043
+Q20 bases: 47797953(98.8275%)
+Q30 bases: 46475283(96.0927%)
+
+Read2 after filtering:
+total reads: 820718
+total bases: 48294138
+Q20 bases: 47863612(99.1085%)
+Q30 bases: 46675108(96.6476%)
+
+Filtering result:
+reads passed filter: 1641436
+reads failed due to low quality: 5092
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 807892
+
+Duplication rate: 84.0618%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A12_R1_val_1.fq -I 40559-3_R2_A12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A12.fq -O ../../step03_clean/plate3_r1/3_R2_A12.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 856450
+total bases: 68671939
+Q20 bases: 67450440(98.2213%)
+Q30 bases: 65119499(94.8269%)
+
+Read2 before filtering:
+total reads: 856450
+total bases: 69054589
+Q20 bases: 67954559(98.407%)
+Q30 bases: 65700791(95.1433%)
+
+Read1 after filtering:
+total reads: 619989
+total bases: 36525497
+Q20 bases: 36069122(98.7505%)
+Q30 bases: 34999966(95.8234%)
+
+Read2 after filtering:
+total reads: 619989
+total bases: 36488871
+Q20 bases: 36161965(99.1041%)
+Q30 bases: 35245709(96.593%)
+
+Filtering result:
+reads passed filter: 1239978
+reads failed due to low quality: 3872
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 469050
+
+Duplication rate: 86.0436%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A2_R1_val_1.fq -I 40559-3_R2_A2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A2.fq -O ../../step03_clean/plate3_r1/3_R2_A2.fq 
+fastp v0.23.1, time used: 7 seconds
+Read1 before filtering:
+total reads: 1144135
+total bases: 104491127
+Q20 bases: 102648987(98.237%)
+Q30 bases: 99090821(94.8318%)
+
+Read2 before filtering:
+total reads: 1144135
+total bases: 104241391
+Q20 bases: 102545189(98.3728%)
+Q30 bases: 99080331(95.0489%)
+
+Read1 after filtering:
+total reads: 698080
+total bases: 42641861
+Q20 bases: 42138501(98.8196%)
+Q30 bases: 40951367(96.0356%)
+
+Read2 after filtering:
+total reads: 698080
+total bases: 42598359
+Q20 bases: 42234742(99.1464%)
+Q30 bases: 41212075(96.7457%)
+
+Filtering result:
+reads passed filter: 1396160
+reads failed due to low quality: 5092
+reads failed due to too many N: 0
+reads failed due to too short: 2
+reads failed due to too long: 887016
+
+Duplication rate: 84.5117%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A3_R1_val_1.fq -I 40559-3_R2_A3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A3.fq -O ../../step03_clean/plate3_r1/3_R2_A3.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1102997
+total bases: 89065161
+Q20 bases: 87520905(98.2662%)
+Q30 bases: 84617548(95.0063%)
+
+Read2 before filtering:
+total reads: 1102997
+total bases: 89466452
+Q20 bases: 88038029(98.4034%)
+Q30 bases: 85145236(95.17%)
+
+Read1 after filtering:
+total reads: 782335
+total bases: 45464223
+Q20 bases: 44945408(98.8588%)
+Q30 bases: 43727287(96.1796%)
+
+Read2 after filtering:
+total reads: 782335
+total bases: 45404899
+Q20 bases: 45002867(99.1146%)
+Q30 bases: 43896435(96.6778%)
+
+Filtering result:
+reads passed filter: 1564670
+reads failed due to low quality: 4820
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 636500
+
+Duplication rate: 85.07%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A4_R1_val_1.fq -I 40559-3_R2_A4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A4.fq -O ../../step03_clean/plate3_r1/3_R2_A4.fq 
+fastp v0.23.1, time used: 8 seconds
+Read1 before filtering:
+total reads: 1948448
+total bases: 168833912
+Q20 bases: 165967751(98.3024%)
+Q30 bases: 160418747(95.0157%)
+
+Read2 before filtering:
+total reads: 1948448
+total bases: 168902089
+Q20 bases: 165797117(98.1617%)
+Q30 bases: 160038040(94.752%)
+
+Read1 after filtering:
+total reads: 1271906
+total bases: 75378932
+Q20 bases: 74529509(98.8731%)
+Q30 bases: 72473663(96.1458%)
+
+Read2 after filtering:
+total reads: 1271906
+total bases: 75337503
+Q20 bases: 74616716(99.0433%)
+Q30 bases: 72744585(96.5583%)
+
+Filtering result:
+reads passed filter: 2543812
+reads failed due to low quality: 12402
+reads failed due to too many N: 2
+reads failed due to too short: 4
+reads failed due to too long: 1340676
+
+Duplication rate: 83.7432%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A5_R1_val_1.fq -I 40559-3_R2_A5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A5.fq -O ../../step03_clean/plate3_r1/3_R2_A5.fq 
+fastp v0.23.1, time used: 16 seconds
+Read1 before filtering:
+total reads: 1407410
+total bases: 123425315
+Q20 bases: 121303255(98.2807%)
+Q30 bases: 117213263(94.967%)
+
+Read2 before filtering:
+total reads: 1407410
+total bases: 124569073
+Q20 bases: 122192445(98.0921%)
+Q30 bases: 117831544(94.5913%)
+
+Read1 after filtering:
+total reads: 898805
+total bases: 54266134
+Q20 bases: 53635219(98.8374%)
+Q30 bases: 52129032(96.0618%)
+
+Read2 after filtering:
+total reads: 898805
+total bases: 54224170
+Q20 bases: 53680026(98.9965%)
+Q30 bases: 52289534(96.4322%)
+
+Filtering result:
+reads passed filter: 1797610
+reads failed due to low quality: 9462
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 1007744
+
+Duplication rate: 83.5907%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A6_R1_val_1.fq -I 40559-3_R2_A6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A6.fq -O ../../step03_clean/plate3_r1/3_R2_A6.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1472695
+total bases: 123307418
+Q20 bases: 121110123(98.218%)
+Q30 bases: 116875127(94.7835%)
+
+Read2 before filtering:
+total reads: 1472695
+total bases: 123140668
+Q20 bases: 121292226(98.4989%)
+Q30 bases: 117458200(95.3854%)
+
+Read1 after filtering:
+total reads: 1019486
+total bases: 60753104
+Q20 bases: 60036703(98.8208%)
+Q30 bases: 58286139(95.9394%)
+
+Read2 after filtering:
+total reads: 1019486
+total bases: 60698985
+Q20 bases: 60234932(99.2355%)
+Q30 bases: 58854424(96.9611%)
+
+Filtering result:
+reads passed filter: 2038972
+reads failed due to low quality: 6098
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 900316
+
+Duplication rate: 85.0674%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A7_R1_val_1.fq -I 40559-3_R2_A7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A7.fq -O ../../step03_clean/plate3_r1/3_R2_A7.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 2527719
+total bases: 212309367
+Q20 bases: 208399262(98.1583%)
+Q30 bases: 200859447(94.607%)
+
+Read2 before filtering:
+total reads: 2527719
+total bases: 213594441
+Q20 bases: 210219669(98.42%)
+Q30 bases: 203205075(95.1359%)
+
+Read1 after filtering:
+total reads: 1734169
+total bases: 104008795
+Q20 bases: 102739431(98.7796%)
+Q30 bases: 99683494(95.8414%)
+
+Read2 after filtering:
+total reads: 1734169
+total bases: 103921193
+Q20 bases: 103066287(99.1774%)
+Q30 bases: 100581046(96.7859%)
+
+Filtering result:
+reads passed filter: 3468338
+reads failed due to low quality: 10988
+reads failed due to too many N: 10
+reads failed due to too short: 2
+reads failed due to too long: 1576100
+
+Duplication rate: 85.5256%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A8_R1_val_1.fq -I 40559-3_R2_A8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A8.fq -O ../../step03_clean/plate3_r1/3_R2_A8.fq 
+fastp v0.23.1, time used: 19 seconds
+Read1 before filtering:
+total reads: 1238684
+total bases: 125185770
+Q20 bases: 122812251(98.104%)
+Q30 bases: 118103624(94.3427%)
+
+Read2 before filtering:
+total reads: 1238684
+total bases: 124721395
+Q20 bases: 122557266(98.2648%)
+Q30 bases: 118086549(94.6803%)
+
+Read1 after filtering:
+total reads: 647775
+total bases: 43322902
+Q20 bases: 42757834(98.6957%)
+Q30 bases: 41402940(95.5683%)
+
+Read2 after filtering:
+total reads: 647775
+total bases: 43300596
+Q20 bases: 42897223(99.0684%)
+Q30 bases: 41769505(96.464%)
+
+Filtering result:
+reads passed filter: 1295550
+reads failed due to low quality: 6020
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 1175794
+
+Duplication rate: 82.5206%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_A9_R1_val_1.fq -I 40559-3_R2_A9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_A9.fq -O ../../step03_clean/plate3_r1/3_R2_A9.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1115545
+total bases: 96562363
+Q20 bases: 94929409(98.3089%)
+Q30 bases: 91750496(95.0168%)
+
+Read2 before filtering:
+total reads: 1115545
+total bases: 96539422
+Q20 bases: 95000286(98.4057%)
+Q30 bases: 91883984(95.1777%)
+
+Read1 after filtering:
+total reads: 726891
+total bases: 42749902
+Q20 bases: 42253519(98.8389%)
+Q30 bases: 41068286(96.0664%)
+
+Read2 after filtering:
+total reads: 726891
+total bases: 42712188
+Q20 bases: 42376458(99.214%)
+Q30 bases: 41407007(96.9442%)
+
+Filtering result:
+reads passed filter: 1453782
+reads failed due to low quality: 4610
+reads failed due to too many N: 0
+reads failed due to too short: 2
+reads failed due to too long: 772696
+
+Duplication rate: 85.1315%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B1_R1_val_1.fq -I 40559-3_R2_B1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B1.fq -O ../../step03_clean/plate3_r1/3_R2_B1.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 2254164
+total bases: 191803549
+Q20 bases: 188047651(98.0418%)
+Q30 bases: 180837849(94.2828%)
+
+Read2 before filtering:
+total reads: 2254164
+total bases: 192651016
+Q20 bases: 189395597(98.3102%)
+Q30 bases: 182839216(94.907%)
+
+Read1 after filtering:
+total reads: 1490304
+total bases: 87600358
+Q20 bases: 86387238(98.6152%)
+Q30 bases: 83508413(95.3288%)
+
+Read2 after filtering:
+total reads: 1490304
+total bases: 87498483
+Q20 bases: 86735054(99.1275%)
+Q30 bases: 84616746(96.7065%)
+
+Filtering result:
+reads passed filter: 2980608
+reads failed due to low quality: 11094
+reads failed due to too many N: 6
+reads failed due to too short: 6
+reads failed due to too long: 1516614
+
+Duplication rate: 84.8035%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B10_R1_val_1.fq -I 40559-3_R2_B10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B10.fq -O ../../step03_clean/plate3_r1/3_R2_B10.fq 
+fastp v0.23.1, time used: 17 seconds
+Read1 before filtering:
+total reads: 1038524
+total bases: 106744035
+Q20 bases: 104019309(97.4474%)
+Q30 bases: 98796478(92.5546%)
+
+Read2 before filtering:
+total reads: 1038524
+total bases: 106120485
+Q20 bases: 104047778(98.0468%)
+Q30 bases: 99778716(94.024%)
+
+Read1 after filtering:
+total reads: 525417
+total bases: 35235545
+Q20 bases: 34651283(98.3418%)
+Q30 bases: 33299905(94.5066%)
+
+Read2 after filtering:
+total reads: 525417
+total bases: 35209982
+Q20 bases: 34856666(98.9965%)
+Q30 bases: 33865997(96.1829%)
+
+Filtering result:
+reads passed filter: 1050834
+reads failed due to low quality: 5142
+reads failed due to too many N: 4
+reads failed due to too short: 2
+reads failed due to too long: 1021066
+
+Duplication rate: 75.16%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B11_R1_val_1.fq -I 40559-3_R2_B11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B11.fq -O ../../step03_clean/plate3_r1/3_R2_B11.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1507102
+total bases: 130682635
+Q20 bases: 128055398(97.9896%)
+Q30 bases: 122969777(94.098%)
+
+Read2 before filtering:
+total reads: 1507102
+total bases: 130950579
+Q20 bases: 128966881(98.4852%)
+Q30 bases: 124691641(95.2204%)
+
+Read1 after filtering:
+total reads: 986921
+total bases: 59834964
+Q20 bases: 58987430(98.5835%)
+Q30 bases: 57007695(95.2749%)
+
+Read2 after filtering:
+total reads: 986921
+total bases: 59742489
+Q20 bases: 59243697(99.1651%)
+Q30 bases: 57826938(96.7937%)
+
+Filtering result:
+reads passed filter: 1973842
+reads failed due to low quality: 6302
+reads failed due to too many N: 4
+reads failed due to too short: 4
+reads failed due to too long: 1034052
+
+Duplication rate: 84.1051%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B12_R1_val_1.fq -I 40559-3_R2_B12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B12.fq -O ../../step03_clean/plate3_r1/3_R2_B12.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 749899
+total bases: 73850313
+Q20 bases: 72558626(98.2509%)
+Q30 bases: 69951495(94.7206%)
+
+Read2 before filtering:
+total reads: 749899
+total bases: 74724594
+Q20 bases: 73543144(98.4189%)
+Q30 bases: 71045801(95.0769%)
+
+Read1 after filtering:
+total reads: 393445
+total bases: 25367892
+Q20 bases: 25022001(98.6365%)
+Q30 bases: 24210096(95.436%)
+
+Read2 after filtering:
+total reads: 393445
+total bases: 25346263
+Q20 bases: 25124430(99.1248%)
+Q30 bases: 24515363(96.7218%)
+
+Filtering result:
+reads passed filter: 786890
+reads failed due to low quality: 3160
+reads failed due to too many N: 0
+reads failed due to too short: 2
+reads failed due to too long: 709746
+
+Duplication rate: 85.511%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B2_R1_val_1.fq -I 40559-3_R2_B2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B2.fq -O ../../step03_clean/plate3_r1/3_R2_B2.fq 
+fastp v0.23.1, time used: 7 seconds
+Read1 before filtering:
+total reads: 217228
+total bases: 23980825
+Q20 bases: 22889579(95.4495%)
+Q30 bases: 21040720(87.7398%)
+
+Read2 before filtering:
+total reads: 217228
+total bases: 23915371
+Q20 bases: 23100412(96.5923%)
+Q30 bases: 21690375(90.6964%)
+
+Read1 after filtering:
+total reads: 92029
+total bases: 6512616
+Q20 bases: 6319755(97.0387%)
+Q30 bases: 5921986(90.931%)
+
+Read2 after filtering:
+total reads: 92029
+total bases: 6507484
+Q20 bases: 6405375(98.4309%)
+Q30 bases: 6149353(94.4966%)
+
+Filtering result:
+reads passed filter: 184058
+reads failed due to low quality: 1996
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 248402
+
+Duplication rate: 62.5325%
+
+Insert size peak (evaluated by paired-end reads): 168
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B3_R1_val_1.fq -I 40559-3_R2_B3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B3.fq -O ../../step03_clean/plate3_r1/3_R2_B3.fq 
+fastp v0.23.1, time used: 3 seconds
+Read1 before filtering:
+total reads: 2343254
+total bases: 193134936
+Q20 bases: 189619698(98.1799%)
+Q30 bases: 183007641(94.7564%)
+
+Read2 before filtering:
+total reads: 2343254
+total bases: 194111248
+Q20 bases: 191213518(98.5072%)
+Q30 bases: 185183512(95.4007%)
+
+Read1 after filtering:
+total reads: 1603883
+total bases: 92116015
+Q20 bases: 90987167(98.7745%)
+Q30 bases: 88356188(95.9184%)
+
+Read2 after filtering:
+total reads: 1603883
+total bases: 91958178
+Q20 bases: 91247623(99.2273%)
+Q30 bases: 89232613(97.0361%)
+
+Filtering result:
+reads passed filter: 3207766
+reads failed due to low quality: 11278
+reads failed due to too many N: 4
+reads failed due to too short: 6
+reads failed due to too long: 1467454
+
+Duplication rate: 84.1697%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B4_R1_val_1.fq -I 40559-3_R2_B4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B4.fq -O ../../step03_clean/plate3_r1/3_R2_B4.fq 
+fastp v0.23.1, time used: 18 seconds
+Read1 before filtering:
+total reads: 1596335
+total bases: 126827116
+Q20 bases: 124713279(98.3333%)
+Q30 bases: 120655131(95.1335%)
+
+Read2 before filtering:
+total reads: 1596335
+total bases: 126945180
+Q20 bases: 124683627(98.2185%)
+Q30 bases: 120549824(94.9621%)
+
+Read1 after filtering:
+total reads: 1160961
+total bases: 66878444
+Q20 bases: 66157963(98.9227%)
+Q30 bases: 64400692(96.2951%)
+
+Read2 after filtering:
+total reads: 1160961
+total bases: 66841082
+Q20 bases: 66262789(99.1348%)
+Q30 bases: 64728756(96.8398%)
+
+Filtering result:
+reads passed filter: 2321922
+reads failed due to low quality: 9842
+reads failed due to too many N: 8
+reads failed due to too short: 0
+reads failed due to too long: 860898
+
+Duplication rate: 84.1923%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B5_R1_val_1.fq -I 40559-3_R2_B5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B5.fq -O ../../step03_clean/plate3_r1/3_R2_B5.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 2182924
+total bases: 185931619
+Q20 bases: 182652885(98.2366%)
+Q30 bases: 176382860(94.8644%)
+
+Read2 before filtering:
+total reads: 2182924
+total bases: 187469443
+Q20 bases: 183994636(98.1465%)
+Q30 bases: 177541516(94.7042%)
+
+Read1 after filtering:
+total reads: 1429087
+total bases: 83105435
+Q20 bases: 82112133(98.8048%)
+Q30 bases: 79743371(95.9545%)
+
+Read2 after filtering:
+total reads: 1429087
+total bases: 83027826
+Q20 bases: 82241842(99.0533%)
+Q30 bases: 80236374(96.6379%)
+
+Filtering result:
+reads passed filter: 2858174
+reads failed due to low quality: 14404
+reads failed due to too many N: 8
+reads failed due to too short: 0
+reads failed due to too long: 1493262
+
+Duplication rate: 84.8645%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B6_R1_val_1.fq -I 40559-3_R2_B6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B6.fq -O ../../step03_clean/plate3_r1/3_R2_B6.fq 
+fastp v0.23.1, time used: 18 seconds
+Read1 before filtering:
+total reads: 1142854
+total bases: 110883494
+Q20 bases: 109036356(98.3342%)
+Q30 bases: 105357800(95.0167%)
+
+Read2 before filtering:
+total reads: 1142854
+total bases: 110815783
+Q20 bases: 109190190(98.5331%)
+Q30 bases: 105725291(95.4063%)
+
+Read1 after filtering:
+total reads: 637770
+total bases: 41004820
+Q20 bases: 40526937(98.8346%)
+Q30 bases: 39373448(96.0215%)
+
+Read2 after filtering:
+total reads: 637770
+total bases: 40978429
+Q20 bases: 40688077(99.2915%)
+Q30 bases: 39812246(97.1542%)
+
+Filtering result:
+reads passed filter: 1275540
+reads failed due to low quality: 4818
+reads failed due to too many N: 12
+reads failed due to too short: 0
+reads failed due to too long: 1005338
+
+Duplication rate: 83.2402%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B7_R1_val_1.fq -I 40559-3_R2_B7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B7.fq -O ../../step03_clean/plate3_r1/3_R2_B7.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1743674
+total bases: 173981990
+Q20 bases: 171075621(98.3295%)
+Q30 bases: 165365043(95.0472%)
+
+Read2 before filtering:
+total reads: 1743674
+total bases: 175786157
+Q20 bases: 173373050(98.6272%)
+Q30 bases: 167990814(95.5654%)
+
+Read1 after filtering:
+total reads: 903430
+total bases: 59302641
+Q20 bases: 58569695(98.7641%)
+Q30 bases: 56870566(95.8989%)
+
+Read2 after filtering:
+total reads: 903430
+total bases: 59254216
+Q20 bases: 58838178(99.2979%)
+Q30 bases: 57620834(97.2434%)
+
+Filtering result:
+reads passed filter: 1806860
+reads failed due to low quality: 8496
+reads failed due to too many N: 6
+reads failed due to too short: 2
+reads failed due to too long: 1671984
+
+Duplication rate: 79.7857%
+
+Insert size peak (evaluated by paired-end reads): 139
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B8_R1_val_1.fq -I 40559-3_R2_B8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B8.fq -O ../../step03_clean/plate3_r1/3_R2_B8.fq 
+fastp v0.23.1, time used: 15 seconds
+Read1 before filtering:
+total reads: 1071217
+total bases: 106030728
+Q20 bases: 104311790(98.3788%)
+Q30 bases: 100837296(95.102%)
+
+Read2 before filtering:
+total reads: 1071217
+total bases: 105749684
+Q20 bases: 104129615(98.468%)
+Q30 bases: 100683963(95.2097%)
+
+Read1 after filtering:
+total reads: 579559
+total bases: 38248475
+Q20 bases: 37793947(98.8116%)
+Q30 bases: 36717100(95.9962%)
+
+Read2 after filtering:
+total reads: 579559
+total bases: 38227527
+Q20 bases: 37909862(99.169%)
+Q30 bases: 37012943(96.8228%)
+
+Filtering result:
+reads passed filter: 1159118
+reads failed due to low quality: 3900
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 979410
+
+Duplication rate: 83.0708%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_B9_R1_val_1.fq -I 40559-3_R2_B9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_B9.fq -O ../../step03_clean/plate3_r1/3_R2_B9.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1488397
+total bases: 125540982
+Q20 bases: 123308456(98.2217%)
+Q30 bases: 119024448(94.8092%)
+
+Read2 before filtering:
+total reads: 1488397
+total bases: 125637559
+Q20 bases: 123659332(98.4254%)
+Q30 bases: 119703844(95.2771%)
+
+Read1 after filtering:
+total reads: 1008636
+total bases: 59157121
+Q20 bases: 58455074(98.8133%)
+Q30 bases: 56781875(95.9849%)
+
+Read2 after filtering:
+total reads: 1008636
+total bases: 59103560
+Q20 bases: 58679644(99.2828%)
+Q30 bases: 57429920(97.1683%)
+
+Filtering result:
+reads passed filter: 2017272
+reads failed due to low quality: 6212
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 953304
+
+Duplication rate: 84.974%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C1_R1_val_1.fq -I 40559-3_R2_C1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C1.fq -O ../../step03_clean/plate3_r1/3_R2_C1.fq 
+fastp v0.23.1, time used: 21 seconds
+Read1 before filtering:
+total reads: 720979
+total bases: 64117130
+Q20 bases: 63112852(98.4337%)
+Q30 bases: 61086928(95.274%)
+
+Read2 before filtering:
+total reads: 720979
+total bases: 64611556
+Q20 bases: 63655546(98.5204%)
+Q30 bases: 61627760(95.3819%)
+
+Read1 after filtering:
+total reads: 451618
+total bases: 27759510
+Q20 bases: 27457455(98.9119%)
+Q30 bases: 26712319(96.2276%)
+
+Read2 after filtering:
+total reads: 451618
+total bases: 27732592
+Q20 bases: 27513316(99.2093%)
+Q30 bases: 26878074(96.9187%)
+
+Filtering result:
+reads passed filter: 903236
+reads failed due to low quality: 2972
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 535746
+
+Duplication rate: 83.7604%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C10_R1_val_1.fq -I 40559-3_R2_C10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C10.fq -O ../../step03_clean/plate3_r1/3_R2_C10.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1685198
+total bases: 136995873
+Q20 bases: 134511890(98.1868%)
+Q30 bases: 129849639(94.7836%)
+
+Read2 before filtering:
+total reads: 1685198
+total bases: 136414944
+Q20 bases: 134290316(98.4425%)
+Q30 bases: 130019001(95.3114%)
+
+Read1 after filtering:
+total reads: 1184383
+total bases: 67686326
+Q20 bases: 66904156(98.8444%)
+Q30 bases: 65043708(96.0958%)
+
+Read2 after filtering:
+total reads: 1184383
+total bases: 67586417
+Q20 bases: 67095467(99.2736%)
+Q30 bases: 65652029(97.1379%)
+
+Filtering result:
+reads passed filter: 2368766
+reads failed due to low quality: 6530
+reads failed due to too many N: 14
+reads failed due to too short: 4
+reads failed due to too long: 995082
+
+Duplication rate: 85.4818%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C11_R1_val_1.fq -I 40559-3_R2_C11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C11.fq -O ../../step03_clean/plate3_r1/3_R2_C11.fq 
+fastp v0.23.1, time used: 16 seconds
+Read1 before filtering:
+total reads: 1130701
+total bases: 104339604
+Q20 bases: 102585276(98.3186%)
+Q30 bases: 99094997(94.9735%)
+
+Read2 before filtering:
+total reads: 1130701
+total bases: 105008517
+Q20 bases: 103385821(98.4547%)
+Q30 bases: 99986807(95.2178%)
+
+Read1 after filtering:
+total reads: 669302
+total bases: 41838081
+Q20 bases: 41368286(98.8771%)
+Q30 bases: 40222124(96.1376%)
+
+Read2 after filtering:
+total reads: 669302
+total bases: 41784855
+Q20 bases: 41455403(99.2116%)
+Q30 bases: 40491219(96.9041%)
+
+Filtering result:
+reads passed filter: 1338604
+reads failed due to low quality: 4528
+reads failed due to too many N: 8
+reads failed due to too short: 0
+reads failed due to too long: 918262
+
+Duplication rate: 83.8953%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C12_R1_val_1.fq -I 40559-3_R2_C12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C12.fq -O ../../step03_clean/plate3_r1/3_R2_C12.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 815539
+total bases: 76166072
+Q20 bases: 74966716(98.4253%)
+Q30 bases: 72535408(95.2332%)
+
+Read2 before filtering:
+total reads: 815539
+total bases: 77168761
+Q20 bases: 75979734(98.4592%)
+Q30 bases: 73478452(95.2179%)
+
+Read1 after filtering:
+total reads: 470438
+total bases: 29264749
+Q20 bases: 28940533(98.8921%)
+Q30 bases: 28152443(96.1992%)
+
+Read2 after filtering:
+total reads: 470438
+total bases: 29238793
+Q20 bases: 29016346(99.2392%)
+Q30 bases: 28359577(96.993%)
+
+Filtering result:
+reads passed filter: 940876
+reads failed due to low quality: 3282
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 686916
+
+Duplication rate: 84.0032%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C2_R1_val_1.fq -I 40559-3_R2_C2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C2.fq -O ../../step03_clean/plate3_r1/3_R2_C2.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1440554
+total bases: 119966410
+Q20 bases: 117858236(98.2427%)
+Q30 bases: 113849125(94.9008%)
+
+Read2 before filtering:
+total reads: 1440554
+total bases: 119870202
+Q20 bases: 118063349(98.4927%)
+Q30 bases: 114392500(95.4303%)
+
+Read1 after filtering:
+total reads: 977281
+total bases: 56054077
+Q20 bases: 55417586(98.8645%)
+Q30 bases: 53906085(96.168%)
+
+Read2 after filtering:
+total reads: 977281
+total bases: 55982770
+Q20 bases: 55589799(99.2981%)
+Q30 bases: 54426582(97.2202%)
+
+Filtering result:
+reads passed filter: 1954562
+reads failed due to low quality: 5814
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 920728
+
+Duplication rate: 85.5923%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C3_R1_val_1.fq -I 40559-3_R2_C3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C3.fq -O ../../step03_clean/plate3_r1/3_R2_C3.fq 
+fastp v0.23.1, time used: 14 seconds
+Read1 before filtering:
+total reads: 1267483
+total bases: 124354056
+Q20 bases: 122422075(98.4464%)
+Q30 bases: 118530857(95.3172%)
+
+Read2 before filtering:
+total reads: 1267483
+total bases: 125870956
+Q20 bases: 124131413(98.618%)
+Q30 bases: 120313889(95.5851%)
+
+Read1 after filtering:
+total reads: 677974
+total bases: 44342069
+Q20 bases: 43859345(98.9114%)
+Q30 bases: 42705600(96.3094%)
+
+Read2 after filtering:
+total reads: 677974
+total bases: 44297371
+Q20 bases: 43971372(99.2641%)
+Q30 bases: 43035217(97.1507%)
+
+Filtering result:
+reads passed filter: 1355948
+reads failed due to low quality: 5812
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 1173200
+
+Duplication rate: 78.9769%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C4_R1_val_1.fq -I 40559-3_R2_C4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C4.fq -O ../../step03_clean/plate3_r1/3_R2_C4.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1147323
+total bases: 103376905
+Q20 bases: 100894289(97.5985%)
+Q30 bases: 96222054(93.0789%)
+
+Read2 before filtering:
+total reads: 1147323
+total bases: 103683284
+Q20 bases: 101361335(97.7605%)
+Q30 bases: 97275093(93.8195%)
+
+Read1 after filtering:
+total reads: 736642
+total bases: 46828068
+Q20 bases: 46114974(98.4772%)
+Q30 bases: 44422272(94.8625%)
+
+Read2 after filtering:
+total reads: 736642
+total bases: 46807098
+Q20 bases: 46356541(99.0374%)
+Q30 bases: 45134860(96.4274%)
+
+Filtering result:
+reads passed filter: 1473284
+reads failed due to low quality: 10800
+reads failed due to too many N: 10
+reads failed due to too short: 0
+reads failed due to too long: 810552
+
+Duplication rate: 79.3023%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C5_R1_val_1.fq -I 40559-3_R2_C5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C5.fq -O ../../step03_clean/plate3_r1/3_R2_C5.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 1786019
+total bases: 164902304
+Q20 bases: 162335354(98.4434%)
+Q30 bases: 157124516(95.2834%)
+
+Read2 before filtering:
+total reads: 1786019
+total bases: 167083555
+Q20 bases: 164151432(98.2451%)
+Q30 bases: 158541438(94.8875%)
+
+Read1 after filtering:
+total reads: 1043437
+total bases: 64251518
+Q20 bases: 63568461(98.9369%)
+Q30 bases: 61890784(96.3258%)
+
+Read2 after filtering:
+total reads: 1043437
+total bases: 64206385
+Q20 bases: 63648140(99.1305%)
+Q30 bases: 62178998(96.8424%)
+
+Filtering result:
+reads passed filter: 2086874
+reads failed due to low quality: 10560
+reads failed due to too many N: 2
+reads failed due to too short: 6
+reads failed due to too long: 1474596
+
+Duplication rate: 84.0045%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C6_R1_val_1.fq -I 40559-3_R2_C6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C6.fq -O ../../step03_clean/plate3_r1/3_R2_C6.fq 
+fastp v0.23.1, time used: 15 seconds
+Read1 before filtering:
+total reads: 1178098
+total bases: 114958324
+Q20 bases: 112866290(98.1802%)
+Q30 bases: 108733588(94.5852%)
+
+Read2 before filtering:
+total reads: 1178098
+total bases: 115077206
+Q20 bases: 113457470(98.5925%)
+Q30 bases: 109923792(95.5218%)
+
+Read1 after filtering:
+total reads: 654444
+total bases: 42974881
+Q20 bases: 42430377(98.733%)
+Q30 bases: 41136511(95.7222%)
+
+Read2 after filtering:
+total reads: 654444
+total bases: 42946635
+Q20 bases: 42658212(99.3284%)
+Q30 bases: 41760880(97.239%)
+
+Filtering result:
+reads passed filter: 1308888
+reads failed due to low quality: 4810
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 1042498
+
+Duplication rate: 83.6652%
+
+Insert size peak (evaluated by paired-end reads): 71
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C7_R1_val_1.fq -I 40559-3_R2_C7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C7.fq -O ../../step03_clean/plate3_r1/3_R2_C7.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1667437
+total bases: 161437867
+Q20 bases: 158856381(98.4009%)
+Q30 bases: 153545910(95.1115%)
+
+Read2 before filtering:
+total reads: 1667437
+total bases: 163356967
+Q20 bases: 161053837(98.5901%)
+Q30 bases: 156002011(95.4976%)
+
+Read1 after filtering:
+total reads: 923325
+total bases: 60723199
+Q20 bases: 60022280(98.8457%)
+Q30 bases: 58306985(96.0209%)
+
+Read2 after filtering:
+total reads: 923325
+total bases: 60682625
+Q20 bases: 60260913(99.3051%)
+Q30 bases: 58964694(97.169%)
+
+Filtering result:
+reads passed filter: 1846650
+reads failed due to low quality: 6612
+reads failed due to too many N: 14
+reads failed due to too short: 0
+reads failed due to too long: 1481598
+
+Duplication rate: 85.2931%
+
+Insert size peak (evaluated by paired-end reads): 71
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C8_R1_val_1.fq -I 40559-3_R2_C8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C8.fq -O ../../step03_clean/plate3_r1/3_R2_C8.fq 
+fastp v0.23.1, time used: 14 seconds
+Read1 before filtering:
+total reads: 1255861
+total bases: 123017234
+Q20 bases: 120874851(98.2585%)
+Q30 bases: 116702117(94.8665%)
+
+Read2 before filtering:
+total reads: 1255861
+total bases: 122915149
+Q20 bases: 121002168(98.4437%)
+Q30 bases: 117054967(95.2323%)
+
+Read1 after filtering:
+total reads: 686521
+total bases: 44670722
+Q20 bases: 44121524(98.7706%)
+Q30 bases: 42823716(95.8653%)
+
+Read2 after filtering:
+total reads: 686521
+total bases: 44641720
+Q20 bases: 44293203(99.2193%)
+Q30 bases: 43286551(96.9643%)
+
+Filtering result:
+reads passed filter: 1373042
+reads failed due to low quality: 6072
+reads failed due to too many N: 16
+reads failed due to too short: 2
+reads failed due to too long: 1132590
+
+Duplication rate: 82.3705%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_C9_R1_val_1.fq -I 40559-3_R2_C9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_C9.fq -O ../../step03_clean/plate3_r1/3_R2_C9.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1024620
+total bases: 91072941
+Q20 bases: 89567339(98.3468%)
+Q30 bases: 86569068(95.0547%)
+
+Read2 before filtering:
+total reads: 1024620
+total bases: 91269456
+Q20 bases: 89876530(98.4738%)
+Q30 bases: 86975290(95.2951%)
+
+Read1 after filtering:
+total reads: 637570
+total bases: 37728092
+Q20 bases: 37293896(98.8491%)
+Q30 bases: 36242750(96.063%)
+
+Read2 after filtering:
+total reads: 637570
+total bases: 37691070
+Q20 bases: 37402034(99.2331%)
+Q30 bases: 36554473(96.9844%)
+
+Filtering result:
+reads passed filter: 1275140
+reads failed due to low quality: 4116
+reads failed due to too many N: 2
+reads failed due to too short: 0
+reads failed due to too long: 769982
+
+Duplication rate: 85.7063%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D1_R1_val_1.fq -I 40559-3_R2_D1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D1.fq -O ../../step03_clean/plate3_r1/3_R2_D1.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 2005335
+total bases: 165244875
+Q20 bases: 162313905(98.2263%)
+Q30 bases: 156756214(94.863%)
+
+Read2 before filtering:
+total reads: 2005335
+total bases: 166363975
+Q20 bases: 163496830(98.2766%)
+Q30 bases: 157878440(94.8994%)
+
+Read1 after filtering:
+total reads: 1381132
+total bases: 80552677
+Q20 bases: 79570767(98.781%)
+Q30 bases: 77246394(95.8955%)
+
+Read2 after filtering:
+total reads: 1381132
+total bases: 80462779
+Q20 bases: 79748936(99.1128%)
+Q30 bases: 77769389(96.6526%)
+
+Filtering result:
+reads passed filter: 2762264
+reads failed due to low quality: 11122
+reads failed due to too many N: 16
+reads failed due to too short: 10
+reads failed due to too long: 1237258
+
+Duplication rate: 85.1564%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D10_R1_val_1.fq -I 40559-3_R2_D10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D10.fq -O ../../step03_clean/plate3_r1/3_R2_D10.fq 
+fastp v0.23.1, time used: 15 seconds
+Read1 before filtering:
+total reads: 2116958
+total bases: 194402214
+Q20 bases: 190886534(98.1915%)
+Q30 bases: 184159054(94.7309%)
+
+Read2 before filtering:
+total reads: 2116958
+total bases: 193861993
+Q20 bases: 190838484(98.4404%)
+Q30 bases: 184517147(95.1796%)
+
+Read1 after filtering:
+total reads: 1277470
+total bases: 77816208
+Q20 bases: 76907256(98.8319%)
+Q30 bases: 74738170(96.0445%)
+
+Read2 after filtering:
+total reads: 1277470
+total bases: 77732620
+Q20 bases: 77097077(99.1824%)
+Q30 bases: 75269577(96.8314%)
+
+Filtering result:
+reads passed filter: 2554940
+reads failed due to low quality: 9380
+reads failed due to too many N: 14
+reads failed due to too short: 6
+reads failed due to too long: 1669576
+
+Duplication rate: 81.7351%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D11_R1_val_1.fq -I 40559-3_R2_D11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D11.fq -O ../../step03_clean/plate3_r1/3_R2_D11.fq 
+fastp v0.23.1, time used: 18 seconds
+Read1 before filtering:
+total reads: 2076656
+total bases: 174146721
+Q20 bases: 171080142(98.2391%)
+Q30 bases: 165201700(94.8635%)
+
+Read2 before filtering:
+total reads: 2076656
+total bases: 175186484
+Q20 bases: 172151981(98.2678%)
+Q30 bases: 166090079(94.8076%)
+
+Read1 after filtering:
+total reads: 1388607
+total bases: 80116861
+Q20 bases: 79185001(98.8369%)
+Q30 bases: 76985680(96.0917%)
+
+Read2 after filtering:
+total reads: 1388607
+total bases: 79993625
+Q20 bases: 79318208(99.1557%)
+Q30 bases: 77395894(96.7526%)
+
+Filtering result:
+reads passed filter: 2777214
+reads failed due to low quality: 8998
+reads failed due to too many N: 8
+reads failed due to too short: 4
+reads failed due to too long: 1367088
+
+Duplication rate: 84.0276%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D12_R1_val_1.fq -I 40559-3_R2_D12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D12.fq -O ../../step03_clean/plate3_r1/3_R2_D12.fq 
+fastp v0.23.1, time used: 16 seconds
+Read1 before filtering:
+total reads: 1048712
+total bases: 91072540
+Q20 bases: 89552387(98.3308%)
+Q30 bases: 86535948(95.0187%)
+
+Read2 before filtering:
+total reads: 1048712
+total bases: 92173799
+Q20 bases: 90671645(98.3703%)
+Q30 bases: 87574385(95.0101%)
+
+Read1 after filtering:
+total reads: 667386
+total bases: 39415755
+Q20 bases: 38940093(98.7932%)
+Q30 bases: 37817660(95.9455%)
+
+Read2 after filtering:
+total reads: 667386
+total bases: 39372849
+Q20 bases: 39026888(99.1213%)
+Q30 bases: 38059120(96.6634%)
+
+Filtering result:
+reads passed filter: 1334772
+reads failed due to low quality: 4212
+reads failed due to too many N: 2
+reads failed due to too short: 2
+reads failed due to too long: 758436
+
+Duplication rate: 85.9884%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D2_R1_val_1.fq -I 40559-3_R2_D2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D2.fq -O ../../step03_clean/plate3_r1/3_R2_D2.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 623088
+total bases: 57942915
+Q20 bases: 56911810(98.2205%)
+Q30 bases: 54882196(94.7177%)
+
+Read2 before filtering:
+total reads: 623088
+total bases: 57975208
+Q20 bases: 57073973(98.4455%)
+Q30 bases: 55181521(95.1812%)
+
+Read1 after filtering:
+total reads: 373665
+total bases: 23499326
+Q20 bases: 23218837(98.8064%)
+Q30 bases: 22546633(95.9459%)
+
+Read2 after filtering:
+total reads: 373665
+total bases: 23477890
+Q20 bases: 23283216(99.1708%)
+Q30 bases: 22725141(96.7938%)
+
+Filtering result:
+reads passed filter: 747330
+reads failed due to low quality: 2822
+reads failed due to too many N: 0
+reads failed due to too short: 6
+reads failed due to too long: 496018
+
+Duplication rate: 82.925%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D3_R1_val_1.fq -I 40559-3_R2_D3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D3.fq -O ../../step03_clean/plate3_r1/3_R2_D3.fq 
+fastp v0.23.1, time used: 6 seconds
+Read1 before filtering:
+total reads: 1648747
+total bases: 132588477
+Q20 bases: 130292842(98.2686%)
+Q30 bases: 125909965(94.963%)
+
+Read2 before filtering:
+total reads: 1648747
+total bases: 133530118
+Q20 bases: 131392181(98.3989%)
+Q30 bases: 127046495(95.1444%)
+
+Read1 after filtering:
+total reads: 1152645
+total bases: 65272189
+Q20 bases: 64515129(98.8401%)
+Q30 bases: 62733902(96.1112%)
+
+Read2 after filtering:
+total reads: 1152645
+total bases: 65150718
+Q20 bases: 64616709(99.1803%)
+Q30 bases: 63094671(96.8442%)
+
+Filtering result:
+reads passed filter: 2305290
+reads failed due to low quality: 7162
+reads failed due to too many N: 4
+reads failed due to too short: 4
+reads failed due to too long: 985034
+
+Duplication rate: 86.0726%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D4_R1_val_1.fq -I 40559-3_R2_D4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D4.fq -O ../../step03_clean/plate3_r1/3_R2_D4.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 1329679
+total bases: 111703710
+Q20 bases: 109910265(98.3945%)
+Q30 bases: 106346176(95.2038%)
+
+Read2 before filtering:
+total reads: 1329679
+total bases: 112001462
+Q20 bases: 110099594(98.3019%)
+Q30 bases: 106481932(95.0719%)
+
+Read1 after filtering:
+total reads: 901364
+total bases: 53038538
+Q20 bases: 52473703(98.935%)
+Q30 bases: 51054322(96.2589%)
+
+Read2 after filtering:
+total reads: 901364
+total bases: 53011398
+Q20 bases: 52549648(99.129%)
+Q30 bases: 51314469(96.7989%)
+
+Filtering result:
+reads passed filter: 1802728
+reads failed due to low quality: 8186
+reads failed due to too many N: 2
+reads failed due to too short: 0
+reads failed due to too long: 848442
+
+Duplication rate: 85.355%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D5_R1_val_1.fq -I 40559-3_R2_D5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D5.fq -O ../../step03_clean/plate3_r1/3_R2_D5.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 933507
+total bases: 89502191
+Q20 bases: 88083166(98.4145%)
+Q30 bases: 85245348(95.2439%)
+
+Read2 before filtering:
+total reads: 933507
+total bases: 90731389
+Q20 bases: 89112353(98.2156%)
+Q30 bases: 86011117(94.7975%)
+
+Read1 after filtering:
+total reads: 519103
+total bases: 33475839
+Q20 bases: 33099733(98.8765%)
+Q30 bases: 32197144(96.1802%)
+
+Read2 after filtering:
+total reads: 519103
+total bases: 33453381
+Q20 bases: 33134109(99.0456%)
+Q30 bases: 32311174(96.5857%)
+
+Filtering result:
+reads passed filter: 1038206
+reads failed due to low quality: 6736
+reads failed due to too many N: 10
+reads failed due to too short: 0
+reads failed due to too long: 822062
+
+Duplication rate: 82.1335%
+
+Insert size peak (evaluated by paired-end reads): 50
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D6_R1_val_1.fq -I 40559-3_R2_D6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D6.fq -O ../../step03_clean/plate3_r1/3_R2_D6.fq 
+fastp v0.23.1, time used: 8 seconds
+Read1 before filtering:
+total reads: 1568301
+total bases: 142426463
+Q20 bases: 139432839(97.8981%)
+Q30 bases: 133636526(93.8284%)
+
+Read2 before filtering:
+total reads: 1568301
+total bases: 142522243
+Q20 bases: 140189845(98.3635%)
+Q30 bases: 135302563(94.9343%)
+
+Read1 after filtering:
+total reads: 990798
+total bases: 62636099
+Q20 bases: 61816474(98.6914%)
+Q30 bases: 59797029(95.4674%)
+
+Read2 after filtering:
+total reads: 990798
+total bases: 62601072
+Q20 bases: 62129739(99.2471%)
+Q30 bases: 60685633(96.9402%)
+
+Filtering result:
+reads passed filter: 1981596
+reads failed due to low quality: 7272
+reads failed due to too many N: 10
+reads failed due to too short: 2
+reads failed due to too long: 1147722
+
+Duplication rate: 81.6545%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D7_R1_val_1.fq -I 40559-3_R2_D7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D7.fq -O ../../step03_clean/plate3_r1/3_R2_D7.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 2044431
+total bases: 165776720
+Q20 bases: 162876624(98.2506%)
+Q30 bases: 157226167(94.8421%)
+
+Read2 before filtering:
+total reads: 2044431
+total bases: 167132205
+Q20 bases: 164626088(98.5005%)
+Q30 bases: 159379250(95.3612%)
+
+Read1 after filtering:
+total reads: 1443429
+total bases: 84229855
+Q20 bases: 83233920(98.8176%)
+Q30 bases: 80820653(95.9525%)
+
+Read2 after filtering:
+total reads: 1443429
+total bases: 84152178
+Q20 bases: 83527885(99.2581%)
+Q30 bases: 81665307(97.0448%)
+
+Filtering result:
+reads passed filter: 2886858
+reads failed due to low quality: 8762
+reads failed due to too many N: 10
+reads failed due to too short: 2
+reads failed due to too long: 1193230
+
+Duplication rate: 86.1618%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D8_R1_val_1.fq -I 40559-3_R2_D8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D8.fq -O ../../step03_clean/plate3_r1/3_R2_D8.fq 
+fastp v0.23.1, time used: 15 seconds
+Read1 before filtering:
+total reads: 1552416
+total bases: 137570405
+Q20 bases: 135274158(98.3309%)
+Q30 bases: 130743871(95.0378%)
+
+Read2 before filtering:
+total reads: 1552416
+total bases: 137463588
+Q20 bases: 135356593(98.4672%)
+Q30 bases: 130987152(95.2886%)
+
+Read1 after filtering:
+total reads: 987640
+total bases: 59994286
+Q20 bases: 59297608(98.8388%)
+Q30 bases: 57596195(96.0028%)
+
+Read2 after filtering:
+total reads: 987640
+total bases: 59947385
+Q20 bases: 59463618(99.193%)
+Q30 bases: 58079626(96.8843%)
+
+Filtering result:
+reads passed filter: 1975280
+reads failed due to low quality: 6602
+reads failed due to too many N: 4
+reads failed due to too short: 6
+reads failed due to too long: 1122940
+
+Duplication rate: 84.8781%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_D9_R1_val_1.fq -I 40559-3_R2_D9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_D9.fq -O ../../step03_clean/plate3_r1/3_R2_D9.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 700711
+total bases: 68133654
+Q20 bases: 66974842(98.2992%)
+Q30 bases: 64639066(94.871%)
+
+Read2 before filtering:
+total reads: 700711
+total bases: 68452189
+Q20 bases: 67305376(98.3247%)
+Q30 bases: 64938125(94.8664%)
+
+Read1 after filtering:
+total reads: 387217
+total bases: 25245350
+Q20 bases: 24938259(98.7836%)
+Q30 bases: 24201739(95.8661%)
+
+Read2 after filtering:
+total reads: 387217
+total bases: 25229295
+Q20 bases: 24994584(99.0697%)
+Q30 bases: 24335365(96.4568%)
+
+Filtering result:
+reads passed filter: 774434
+reads failed due to low quality: 3098
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 623884
+
+Duplication rate: 82.9443%
+
+Insert size peak (evaluated by paired-end reads): 71
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E1_R1_val_1.fq -I 40559-3_R2_E1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E1.fq -O ../../step03_clean/plate3_r1/3_R2_E1.fq 
+fastp v0.23.1, time used: 6 seconds
+Read1 before filtering:
+total reads: 1689847
+total bases: 139758523
+Q20 bases: 137165888(98.1449%)
+Q30 bases: 132206907(94.5967%)
+
+Read2 before filtering:
+total reads: 1689847
+total bases: 140706773
+Q20 bases: 138243462(98.2493%)
+Q30 bases: 133373812(94.7885%)
+
+Read1 after filtering:
+total reads: 1163566
+total bases: 68446942
+Q20 bases: 67549664(98.6891%)
+Q30 bases: 65425377(95.5855%)
+
+Read2 after filtering:
+total reads: 1163566
+total bases: 68363554
+Q20 bases: 67684055(99.0061%)
+Q30 bases: 65863945(96.3437%)
+
+Filtering result:
+reads passed filter: 2327132
+reads failed due to low quality: 8166
+reads failed due to too many N: 12
+reads failed due to too short: 2
+reads failed due to too long: 1044382
+
+Duplication rate: 84.0861%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E10_R1_val_1.fq -I 40559-3_R2_E10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E10.fq -O ../../step03_clean/plate3_r1/3_R2_E10.fq 
+fastp v0.23.1, time used: 14 seconds
+Read1 before filtering:
+total reads: 1279620
+total bases: 101518787
+Q20 bases: 99782665(98.2899%)
+Q30 bases: 96443565(95.0007%)
+
+Read2 before filtering:
+total reads: 1279620
+total bases: 101372624
+Q20 bases: 99804136(98.4527%)
+Q30 bases: 96554781(95.2474%)
+
+Read1 after filtering:
+total reads: 928574
+total bases: 53593717
+Q20 bases: 52987364(98.8686%)
+Q30 bases: 51524862(96.1397%)
+
+Read2 after filtering:
+total reads: 928574
+total bases: 53523144
+Q20 bases: 53062988(99.1403%)
+Q30 bases: 51750159(96.6874%)
+
+Filtering result:
+reads passed filter: 1857148
+reads failed due to low quality: 4634
+reads failed due to too many N: 2
+reads failed due to too short: 2
+reads failed due to too long: 697454
+
+Duplication rate: 85.17%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E11_R1_val_1.fq -I 40559-3_R2_E11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E11.fq -O ../../step03_clean/plate3_r1/3_R2_E11.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1981259
+total bases: 152807573
+Q20 bases: 150148101(98.2596%)
+Q30 bases: 145156708(94.9931%)
+
+Read2 before filtering:
+total reads: 1981259
+total bases: 153262414
+Q20 bases: 150772024(98.3751%)
+Q30 bases: 145732437(95.0869%)
+
+Read1 after filtering:
+total reads: 1463426
+total bases: 82456179
+Q20 bases: 81493919(98.833%)
+Q30 bases: 79249483(96.111%)
+
+Read2 after filtering:
+total reads: 1463426
+total bases: 82304425
+Q20 bases: 81540944(99.0724%)
+Q30 bases: 79461097(96.5454%)
+
+Filtering result:
+reads passed filter: 2926852
+reads failed due to low quality: 8254
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 1027406
+
+Duplication rate: 86.0133%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E12_R1_val_1.fq -I 40559-3_R2_E12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E12.fq -O ../../step03_clean/plate3_r1/3_R2_E12.fq 
+fastp v0.23.1, time used: 15 seconds
+Read1 before filtering:
+total reads: 732392
+total bases: 66175674
+Q20 bases: 64981000(98.1947%)
+Q30 bases: 62632927(94.6465%)
+
+Read2 before filtering:
+total reads: 732392
+total bases: 67032716
+Q20 bases: 65894445(98.3019%)
+Q30 bases: 63581168(94.851%)
+
+Read1 after filtering:
+total reads: 440775
+total bases: 26715758
+Q20 bases: 26354943(98.6494%)
+Q30 bases: 25509593(95.4852%)
+
+Read2 after filtering:
+total reads: 440775
+total bases: 26687209
+Q20 bases: 26430207(99.037%)
+Q30 bases: 25729940(96.413%)
+
+Filtering result:
+reads passed filter: 881550
+reads failed due to low quality: 3444
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 579784
+
+Duplication rate: 84.6919%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E2_R1_val_1.fq -I 40559-3_R2_E2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E2.fq -O ../../step03_clean/plate3_r1/3_R2_E2.fq 
+fastp v0.23.1, time used: 6 seconds
+Read1 before filtering:
+total reads: 1141537
+total bases: 104924027
+Q20 bases: 103188577(98.346%)
+Q30 bases: 99718103(95.0384%)
+
+Read2 before filtering:
+total reads: 1141537
+total bases: 105246259
+Q20 bases: 103586685(98.4232%)
+Q30 bases: 100129505(95.1383%)
+
+Read1 after filtering:
+total reads: 697433
+total bases: 44222727
+Q20 bases: 43707380(98.8347%)
+Q30 bases: 42470415(96.0375%)
+
+Read2 after filtering:
+total reads: 697433
+total bases: 44185014
+Q20 bases: 43800040(99.1287%)
+Q30 bases: 42708011(96.6572%)
+
+Filtering result:
+reads passed filter: 1394866
+reads failed due to low quality: 4850
+reads failed due to too many N: 8
+reads failed due to too short: 0
+reads failed due to too long: 883350
+
+Duplication rate: 84.7286%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E3_R1_val_1.fq -I 40559-3_R2_E3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E3.fq -O ../../step03_clean/plate3_r1/3_R2_E3.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1791129
+total bases: 155409462
+Q20 bases: 152699200(98.2561%)
+Q30 bases: 147549789(94.9426%)
+
+Read2 before filtering:
+total reads: 1791129
+total bases: 156910326
+Q20 bases: 154259132(98.3104%)
+Q30 bases: 148971567(94.9406%)
+
+Read1 after filtering:
+total reads: 1145790
+total bases: 67954318
+Q20 bases: 67147613(98.8129%)
+Q30 bases: 65281471(96.0667%)
+
+Read2 after filtering:
+total reads: 1145790
+total bases: 67856893
+Q20 bases: 67238416(99.0886%)
+Q30 bases: 65546122(96.5946%)
+
+Filtering result:
+reads passed filter: 2291580
+reads failed due to low quality: 8838
+reads failed due to too many N: 8
+reads failed due to too short: 2
+reads failed due to too long: 1281830
+
+Duplication rate: 85.0988%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E4_R1_val_1.fq -I 40559-3_R2_E4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E4.fq -O ../../step03_clean/plate3_r1/3_R2_E4.fq 
+fastp v0.23.1, time used: 15 seconds
+Read1 before filtering:
+total reads: 936029
+total bases: 89814835
+Q20 bases: 88321874(98.3377%)
+Q30 bases: 85290290(94.9624%)
+
+Read2 before filtering:
+total reads: 936029
+total bases: 90399735
+Q20 bases: 88694954(98.1142%)
+Q30 bases: 85492765(94.5719%)
+
+Read1 after filtering:
+total reads: 529841
+total bases: 34361464
+Q20 bases: 33963826(98.8428%)
+Q30 bases: 32988922(96.0056%)
+
+Read2 after filtering:
+total reads: 529841
+total bases: 34345680
+Q20 bases: 34007604(99.0157%)
+Q30 bases: 33103918(96.3845%)
+
+Filtering result:
+reads passed filter: 1059682
+reads failed due to low quality: 5974
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 806396
+
+Duplication rate: 83.1263%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E5_R1_val_1.fq -I 40559-3_R2_E5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E5.fq -O ../../step03_clean/plate3_r1/3_R2_E5.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1528201
+total bases: 123283086
+Q20 bases: 121225190(98.3308%)
+Q30 bases: 117332215(95.173%)
+
+Read2 before filtering:
+total reads: 1528201
+total bases: 124618398
+Q20 bases: 122283765(98.1266%)
+Q30 bases: 118013032(94.6995%)
+
+Read1 after filtering:
+total reads: 1072979
+total bases: 61599390
+Q20 bases: 60912373(98.8847%)
+Q30 bases: 59291451(96.2533%)
+
+Read2 after filtering:
+total reads: 1072979
+total bases: 61545846
+Q20 bases: 60935866(99.0089%)
+Q30 bases: 59381723(96.4837%)
+
+Filtering result:
+reads passed filter: 2145958
+reads failed due to low quality: 10050
+reads failed due to too many N: 10
+reads failed due to too short: 2
+reads failed due to too long: 900382
+
+Duplication rate: 83.3935%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E6_R1_val_1.fq -I 40559-3_R2_E6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E6.fq -O ../../step03_clean/plate3_r1/3_R2_E6.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 1179951
+total bases: 112049924
+Q20 bases: 110124874(98.282%)
+Q30 bases: 106232470(94.8082%)
+
+Read2 before filtering:
+total reads: 1179951
+total bases: 112513624
+Q20 bases: 110845772(98.5176%)
+Q30 bases: 107237153(95.3104%)
+
+Read1 after filtering:
+total reads: 678618
+total bases: 43526020
+Q20 bases: 43002802(98.7979%)
+Q30 bases: 41724842(95.8618%)
+
+Read2 after filtering:
+total reads: 678618
+total bases: 43496505
+Q20 bases: 43148923(99.2009%)
+Q30 bases: 42114634(96.823%)
+
+Filtering result:
+reads passed filter: 1357236
+reads failed due to low quality: 4756
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 997906
+
+Duplication rate: 82.4197%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E7_R1_val_1.fq -I 40559-3_R2_E7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E7.fq -O ../../step03_clean/plate3_r1/3_R2_E7.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1303163
+total bases: 120510478
+Q20 bases: 118435472(98.2782%)
+Q30 bases: 114339388(94.8792%)
+
+Read2 before filtering:
+total reads: 1303163
+total bases: 121906538
+Q20 bases: 120012336(98.4462%)
+Q30 bases: 116019200(95.1706%)
+
+Read1 after filtering:
+total reads: 765238
+total bases: 47760081
+Q20 bases: 47168913(98.7622%)
+Q30 bases: 45778365(95.8507%)
+
+Read2 after filtering:
+total reads: 765238
+total bases: 47715323
+Q20 bases: 47318087(99.1675%)
+Q30 bases: 46184637(96.792%)
+
+Filtering result:
+reads passed filter: 1530476
+reads failed due to low quality: 5472
+reads failed due to too many N: 2
+reads failed due to too short: 2
+reads failed due to too long: 1070374
+
+Duplication rate: 82.82%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E8_R1_val_1.fq -I 40559-3_R2_E8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E8.fq -O ../../step03_clean/plate3_r1/3_R2_E8.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 807604
+total bases: 80654684
+Q20 bases: 79218101(98.2188%)
+Q30 bases: 76349497(94.6622%)
+
+Read2 before filtering:
+total reads: 807604
+total bases: 80841865
+Q20 bases: 79479840(98.3152%)
+Q30 bases: 76658723(94.8255%)
+
+Read1 after filtering:
+total reads: 425578
+total bases: 28332664
+Q20 bases: 27975597(98.7397%)
+Q30 bases: 27127349(95.7458%)
+
+Read2 after filtering:
+total reads: 425578
+total bases: 28316727
+Q20 bases: 28040380(99.0241%)
+Q30 bases: 27288797(96.3699%)
+
+Filtering result:
+reads passed filter: 851156
+reads failed due to low quality: 3858
+reads failed due to too many N: 0
+reads failed due to too short: 2
+reads failed due to too long: 760192
+
+Duplication rate: 80.3224%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_E9_R1_val_1.fq -I 40559-3_R2_E9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_E9.fq -O ../../step03_clean/plate3_r1/3_R2_E9.fq 
+fastp v0.23.1, time used: 7 seconds
+Read1 before filtering:
+total reads: 1429239
+total bases: 134097269
+Q20 bases: 131937274(98.3892%)
+Q30 bases: 127622778(95.1718%)
+
+Read2 before filtering:
+total reads: 1429239
+total bases: 134854701
+Q20 bases: 132663272(98.375%)
+Q30 bases: 128212248(95.0744%)
+
+Read1 after filtering:
+total reads: 827003
+total bases: 51182750
+Q20 bases: 50611103(98.8831%)
+Q30 bases: 49226584(96.1781%)
+
+Read2 after filtering:
+total reads: 827003
+total bases: 51147248
+Q20 bases: 50753362(99.2299%)
+Q30 bases: 49600350(96.9756%)
+
+Filtering result:
+reads passed filter: 1654006
+reads failed due to low quality: 6172
+reads failed due to too many N: 10
+reads failed due to too short: 6
+reads failed due to too long: 1198284
+
+Duplication rate: 83.117%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F1_R1_val_1.fq -I 40559-3_R2_F1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F1.fq -O ../../step03_clean/plate3_r1/3_R2_F1.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 895592
+total bases: 72830813
+Q20 bases: 71593455(98.3011%)
+Q30 bases: 69181756(94.9897%)
+
+Read2 before filtering:
+total reads: 895592
+total bases: 73260252
+Q20 bases: 72072210(98.3783%)
+Q30 bases: 69640141(95.0586%)
+
+Read1 after filtering:
+total reads: 629322
+total bases: 36793717
+Q20 bases: 36359656(98.8203%)
+Q30 bases: 35307973(95.962%)
+
+Read2 after filtering:
+total reads: 629322
+total bases: 36751753
+Q20 bases: 36411284(99.0736%)
+Q30 bases: 35473233(96.5212%)
+
+Filtering result:
+reads passed filter: 1258644
+reads failed due to low quality: 4106
+reads failed due to too many N: 4
+reads failed due to too short: 6
+reads failed due to too long: 528424
+
+Duplication rate: 84.0591%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F10_R1_val_1.fq -I 40559-3_R2_F10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F10.fq -O ../../step03_clean/plate3_r1/3_R2_F10.fq 
+fastp v0.23.1, time used: 6 seconds
+Read1 before filtering:
+total reads: 1044468
+total bases: 96981342
+Q20 bases: 95119360(98.0801%)
+Q30 bases: 91460592(94.3074%)
+
+Read2 before filtering:
+total reads: 1044468
+total bases: 97012094
+Q20 bases: 95230059(98.1631%)
+Q30 bases: 91649607(94.4724%)
+
+Read1 after filtering:
+total reads: 630081
+total bases: 39949409
+Q20 bases: 39455836(98.7645%)
+Q30 bases: 38255305(95.7594%)
+
+Read2 after filtering:
+total reads: 630081
+total bases: 39916712
+Q20 bases: 39556988(99.0988%)
+Q30 bases: 38538267(96.5467%)
+
+Filtering result:
+reads passed filter: 1260162
+reads failed due to low quality: 4762
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 824006
+
+Duplication rate: 80.7851%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F11_R1_val_1.fq -I 40559-3_R2_F11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F11.fq -O ../../step03_clean/plate3_r1/3_R2_F11.fq 
+fastp v0.23.1, time used: 8 seconds
+Read1 before filtering:
+total reads: 68160
+total bases: 5268748
+Q20 bases: 5177364(98.2655%)
+Q30 bases: 4995741(94.8184%)
+
+Read2 before filtering:
+total reads: 68160
+total bases: 5272652
+Q20 bases: 5191921(98.4689%)
+Q30 bases: 5019007(95.1894%)
+
+Read1 after filtering:
+total reads: 51060
+total bases: 2955870
+Q20 bases: 2920864(98.8157%)
+Q30 bases: 2836239(95.9528%)
+
+Read2 after filtering:
+total reads: 51060
+total bases: 2951010
+Q20 bases: 2923862(99.08%)
+Q30 bases: 2849441(96.5582%)
+
+Filtering result:
+reads passed filter: 102120
+reads failed due to low quality: 224
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 33976
+
+Duplication rate: 75.9654%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F12_R1_val_1.fq -I 40559-3_R2_F12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F12.fq -O ../../step03_clean/plate3_r1/3_R2_F12.fq 
+fastp v0.23.1, time used: 1 seconds
+Read1 before filtering:
+total reads: 1670630
+total bases: 137666400
+Q20 bases: 135423795(98.371%)
+Q30 bases: 130982470(95.1448%)
+
+Read2 before filtering:
+total reads: 1670630
+total bases: 139015531
+Q20 bases: 136734261(98.359%)
+Q30 bases: 132109786(95.0324%)
+
+Read1 after filtering:
+total reads: 1147312
+total bases: 66545050
+Q20 bases: 65793403(98.8705%)
+Q30 bases: 63976028(96.1394%)
+
+Read2 after filtering:
+total reads: 1147312
+total bases: 66472291
+Q20 bases: 65900479(99.1398%)
+Q30 bases: 64299871(96.7318%)
+
+Filtering result:
+reads passed filter: 2294624
+reads failed due to low quality: 6274
+reads failed due to too many N: 4
+reads failed due to too short: 4
+reads failed due to too long: 1040354
+
+Duplication rate: 85.9894%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F2_R1_val_1.fq -I 40559-3_R2_F2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F2.fq -O ../../step03_clean/plate3_r1/3_R2_F2.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 939313
+total bases: 84249780
+Q20 bases: 82610115(98.0538%)
+Q30 bases: 79415831(94.2624%)
+
+Read2 before filtering:
+total reads: 939313
+total bases: 84518922
+Q20 bases: 83092875(98.3127%)
+Q30 bases: 80163568(94.8469%)
+
+Read1 after filtering:
+total reads: 598546
+total bases: 37396348
+Q20 bases: 36940521(98.7811%)
+Q30 bases: 35834251(95.8229%)
+
+Read2 after filtering:
+total reads: 598546
+total bases: 37364715
+Q20 bases: 37061589(99.1887%)
+Q30 bases: 36166668(96.7936%)
+
+Filtering result:
+reads passed filter: 1197092
+reads failed due to low quality: 3868
+reads failed due to too many N: 12
+reads failed due to too short: 2
+reads failed due to too long: 677652
+
+Duplication rate: 82.2059%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F3_R1_val_1.fq -I 40559-3_R2_F3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F3.fq -O ../../step03_clean/plate3_r1/3_R2_F3.fq 
+fastp v0.23.1, time used: 7 seconds
+Read1 before filtering:
+total reads: 1533356
+total bases: 132449961
+Q20 bases: 130170262(98.2788%)
+Q30 bases: 125673657(94.8839%)
+
+Read2 before filtering:
+total reads: 1533356
+total bases: 133651405
+Q20 bases: 131478824(98.3744%)
+Q30 bases: 126956982(94.9911%)
+
+Read1 after filtering:
+total reads: 996302
+total bases: 59378767
+Q20 bases: 58698668(98.8546%)
+Q30 bases: 57060625(96.096%)
+
+Read2 after filtering:
+total reads: 996302
+total bases: 59301896
+Q20 bases: 58770819(99.1045%)
+Q30 bases: 57300624(96.6253%)
+
+Filtering result:
+reads passed filter: 1992604
+reads failed due to low quality: 6048
+reads failed due to too many N: 8
+reads failed due to too short: 0
+reads failed due to too long: 1068052
+
+Duplication rate: 83.7647%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F4_R1_val_1.fq -I 40559-3_R2_F4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F4.fq -O ../../step03_clean/plate3_r1/3_R2_F4.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 1137594
+total bases: 110520427
+Q20 bases: 108582617(98.2466%)
+Q30 bases: 104650853(94.6892%)
+
+Read2 before filtering:
+total reads: 1137594
+total bases: 111283306
+Q20 bases: 109206338(98.1336%)
+Q30 bases: 105264291(94.5913%)
+
+Read1 after filtering:
+total reads: 628408
+total bases: 40820463
+Q20 bases: 40315888(98.7639%)
+Q30 bases: 39086745(95.7528%)
+
+Read2 after filtering:
+total reads: 628408
+total bases: 40805166
+Q20 bases: 40421618(99.0601%)
+Q30 bases: 39384686(96.5189%)
+
+Filtering result:
+reads passed filter: 1256816
+reads failed due to low quality: 7882
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 1010484
+
+Duplication rate: 82.2451%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F5_R1_val_1.fq -I 40559-3_R2_F5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F5.fq -O ../../step03_clean/plate3_r1/3_R2_F5.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1112039
+total bases: 96461772
+Q20 bases: 94886807(98.3673%)
+Q30 bases: 91700600(95.0642%)
+
+Read2 before filtering:
+total reads: 1112039
+total bases: 97573472
+Q20 bases: 95786518(98.1686%)
+Q30 bases: 92361207(94.6581%)
+
+Read1 after filtering:
+total reads: 716683
+total bases: 42987352
+Q20 bases: 42494246(98.8529%)
+Q30 bases: 41282764(96.0347%)
+
+Read2 after filtering:
+total reads: 716683
+total bases: 42954480
+Q20 bases: 42504969(98.9535%)
+Q30 bases: 41349612(96.2638%)
+
+Filtering result:
+reads passed filter: 1433366
+reads failed due to low quality: 7308
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 783404
+
+Duplication rate: 83.9466%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F6_R1_val_1.fq -I 40559-3_R2_F6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F6.fq -O ../../step03_clean/plate3_r1/3_R2_F6.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1174598
+total bases: 106278226
+Q20 bases: 104541060(98.3655%)
+Q30 bases: 101046220(95.0771%)
+
+Read2 before filtering:
+total reads: 1174598
+total bases: 106746118
+Q20 bases: 105216599(98.5671%)
+Q30 bases: 101938533(95.4962%)
+
+Read1 after filtering:
+total reads: 727146
+total bases: 45196405
+Q20 bases: 44678080(98.8532%)
+Q30 bases: 43405424(96.0373%)
+
+Read2 after filtering:
+total reads: 727146
+total bases: 45166292
+Q20 bases: 44851502(99.303%)
+Q30 bases: 43880208(97.1526%)
+
+Filtering result:
+reads passed filter: 1454292
+reads failed due to low quality: 5184
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 889714
+
+Duplication rate: 84.7361%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F7_R1_val_1.fq -I 40559-3_R2_F7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F7.fq -O ../../step03_clean/plate3_r1/3_R2_F7.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1270668
+total bases: 105915932
+Q20 bases: 104163423(98.3454%)
+Q30 bases: 100710981(95.0858%)
+
+Read2 before filtering:
+total reads: 1270668
+total bases: 106812338
+Q20 bases: 105209728(98.4996%)
+Q30 bases: 101855380(95.3592%)
+
+Read1 after filtering:
+total reads: 872088
+total bases: 51936041
+Q20 bases: 51356618(98.8844%)
+Q30 bases: 49934321(96.1458%)
+
+Read2 after filtering:
+total reads: 872088
+total bases: 51885856
+Q20 bases: 51482178(99.222%)
+Q30 bases: 50300914(96.9453%)
+
+Filtering result:
+reads passed filter: 1744176
+reads failed due to low quality: 5294
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 791862
+
+Duplication rate: 84.9568%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F8_R1_val_1.fq -I 40559-3_R2_F8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F8.fq -O ../../step03_clean/plate3_r1/3_R2_F8.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 947927
+total bases: 92341994
+Q20 bases: 90853547(98.3881%)
+Q30 bases: 87852053(95.1377%)
+
+Read2 before filtering:
+total reads: 947927
+total bases: 92617435
+Q20 bases: 91167256(98.4342%)
+Q30 bases: 88162278(95.1897%)
+
+Read1 after filtering:
+total reads: 524363
+total bases: 34527638
+Q20 bases: 34130535(98.8499%)
+Q30 bases: 33168763(96.0644%)
+
+Read2 after filtering:
+total reads: 524363
+total bases: 34508521
+Q20 bases: 34229042(99.1901%)
+Q30 bases: 33424235(96.8579%)
+
+Filtering result:
+reads passed filter: 1048726
+reads failed due to low quality: 4232
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 842896
+
+Duplication rate: 83.2894%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_F9_R1_val_1.fq -I 40559-3_R2_F9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_F9.fq -O ../../step03_clean/plate3_r1/3_R2_F9.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1215138
+total bases: 110364625
+Q20 bases: 108361373(98.1849%)
+Q30 bases: 104469967(94.6589%)
+
+Read2 before filtering:
+total reads: 1215138
+total bases: 110907579
+Q20 bases: 109119733(98.388%)
+Q30 bases: 105443197(95.073%)
+
+Read1 after filtering:
+total reads: 743445
+total bases: 45799420
+Q20 bases: 45208435(98.7096%)
+Q30 bases: 43823719(95.6862%)
+
+Read2 after filtering:
+total reads: 743445
+total bases: 45758932
+Q20 bases: 45366374(99.1421%)
+Q30 bases: 44274866(96.7568%)
+
+Filtering result:
+reads passed filter: 1486890
+reads failed due to low quality: 5414
+reads failed due to too many N: 6
+reads failed due to too short: 2
+reads failed due to too long: 937964
+
+Duplication rate: 84.0497%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G1_R1_val_1.fq -I 40559-3_R2_G1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G1.fq -O ../../step03_clean/plate3_r1/3_R2_G1.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1692576
+total bases: 137553446
+Q20 bases: 135248105(98.324%)
+Q30 bases: 130743713(95.0494%)
+
+Read2 before filtering:
+total reads: 1692576
+total bases: 138285776
+Q20 bases: 136134171(98.4441%)
+Q30 bases: 131746408(95.2711%)
+
+Read1 after filtering:
+total reads: 1205405
+total bases: 71626760
+Q20 bases: 70815428(98.8673%)
+Q30 bases: 68835913(96.1036%)
+
+Read2 after filtering:
+total reads: 1205405
+total bases: 71561530
+Q20 bases: 70969534(99.1727%)
+Q30 bases: 69302520(96.8433%)
+
+Filtering result:
+reads passed filter: 2410810
+reads failed due to low quality: 7378
+reads failed due to too many N: 14
+reads failed due to too short: 2
+reads failed due to too long: 966948
+
+Duplication rate: 85.3601%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G10_R1_val_1.fq -I 40559-3_R2_G10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G10.fq -O ../../step03_clean/plate3_r1/3_R2_G10.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 1176775
+total bases: 99120212
+Q20 bases: 97313867(98.1776%)
+Q30 bases: 93880348(94.7136%)
+
+Read2 before filtering:
+total reads: 1176775
+total bases: 98996123
+Q20 bases: 97512744(98.5016%)
+Q30 bases: 94390128(95.3473%)
+
+Read1 after filtering:
+total reads: 799143
+total bases: 47416063
+Q20 bases: 46826979(98.7576%)
+Q30 bases: 45452199(95.8582%)
+
+Read2 after filtering:
+total reads: 799143
+total bases: 47344808
+Q20 bases: 46939611(99.1442%)
+Q30 bases: 45824147(96.7881%)
+
+Filtering result:
+reads passed filter: 1598286
+reads failed due to low quality: 4832
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 750426
+
+Duplication rate: 83.5169%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G11_R1_val_1.fq -I 40559-3_R2_G11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G11.fq -O ../../step03_clean/plate3_r1/3_R2_G11.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1030904
+total bases: 86895710
+Q20 bases: 85475630(98.3658%)
+Q30 bases: 82691646(95.1619%)
+
+Read2 before filtering:
+total reads: 1030904
+total bases: 87265111
+Q20 bases: 85991490(98.5405%)
+Q30 bases: 83281438(95.435%)
+
+Read1 after filtering:
+total reads: 689004
+total bases: 40607597
+Q20 bases: 40159933(98.8976%)
+Q30 bases: 39082750(96.2449%)
+
+Read2 after filtering:
+total reads: 689004
+total bases: 40546884
+Q20 bases: 40222292(99.1995%)
+Q30 bases: 39300719(96.9266%)
+
+Filtering result:
+reads passed filter: 1378008
+reads failed due to low quality: 3948
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 679848
+
+Duplication rate: 84.428%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G12_R1_val_1.fq -I 40559-3_R2_G12_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G12.fq -O ../../step03_clean/plate3_r1/3_R2_G12.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 813436
+total bases: 68319876
+Q20 bases: 67189880(98.346%)
+Q30 bases: 64960746(95.0832%)
+
+Read2 before filtering:
+total reads: 813436
+total bases: 68969539
+Q20 bases: 67908551(98.4617%)
+Q30 bases: 65714179(95.28%)
+
+Read1 after filtering:
+total reads: 549950
+total bases: 32612097
+Q20 bases: 32240718(98.8612%)
+Q30 bases: 31344245(96.1123%)
+
+Read2 after filtering:
+total reads: 549950
+total bases: 32578618
+Q20 bases: 32317888(99.1997%)
+Q30 bases: 31573519(96.9149%)
+
+Filtering result:
+reads passed filter: 1099900
+reads failed due to low quality: 3254
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 523712
+
+Duplication rate: 84.9698%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G2_R1_val_1.fq -I 40559-3_R2_G2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G2.fq -O ../../step03_clean/plate3_r1/3_R2_G2.fq 
+fastp v0.23.1, time used: 8 seconds
+Read1 before filtering:
+total reads: 853469
+total bases: 83697545
+Q20 bases: 82231464(98.2484%)
+Q30 bases: 79335534(94.7884%)
+
+Read2 before filtering:
+total reads: 853469
+total bases: 84113374
+Q20 bases: 82861010(98.5111%)
+Q30 bases: 80150361(95.2885%)
+
+Read1 after filtering:
+total reads: 461103
+total bases: 30088562
+Q20 bases: 29710222(98.7426%)
+Q30 bases: 28837820(95.8431%)
+
+Read2 after filtering:
+total reads: 461103
+total bases: 30056529
+Q20 bases: 29811858(99.186%)
+Q30 bases: 29118922(96.8805%)
+
+Filtering result:
+reads passed filter: 922206
+reads failed due to low quality: 3318
+reads failed due to too many N: 4
+reads failed due to too short: 2
+reads failed due to too long: 781408
+
+Duplication rate: 83.2335%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G3_R1_val_1.fq -I 40559-3_R2_G3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G3.fq -O ../../step03_clean/plate3_r1/3_R2_G3.fq 
+fastp v0.23.1, time used: 7 seconds
+Read1 before filtering:
+total reads: 1043015
+total bases: 88916897
+Q20 bases: 87479691(98.3837%)
+Q30 bases: 84661621(95.2143%)
+
+Read2 before filtering:
+total reads: 1043015
+total bases: 89664800
+Q20 bases: 88328454(98.5096%)
+Q30 bases: 85539575(95.3993%)
+
+Read1 after filtering:
+total reads: 683591
+total bases: 40193430
+Q20 bases: 39761258(98.9248%)
+Q30 bases: 38719199(96.3322%)
+
+Read2 after filtering:
+total reads: 683591
+total bases: 40136993
+Q20 bases: 39819402(99.2087%)
+Q30 bases: 38927309(96.9861%)
+
+Filtering result:
+reads passed filter: 1367182
+reads failed due to low quality: 4452
+reads failed due to too many N: 2
+reads failed due to too short: 0
+reads failed due to too long: 714394
+
+Duplication rate: 84.3331%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G4_R1_val_1.fq -I 40559-3_R2_G4_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G4.fq -O ../../step03_clean/plate3_r1/3_R2_G4.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1493094
+total bases: 121278454
+Q20 bases: 118863132(98.0084%)
+Q30 bases: 114231227(94.1892%)
+
+Read2 before filtering:
+total reads: 1493094
+total bases: 121642268
+Q20 bases: 119369808(98.1319%)
+Q30 bases: 115125899(94.643%)
+
+Read1 after filtering:
+total reads: 1076566
+total bases: 64401877
+Q20 bases: 63571687(98.7109%)
+Q30 bases: 61580051(95.6184%)
+
+Read2 after filtering:
+total reads: 1076566
+total bases: 64362981
+Q20 bases: 63724365(99.0078%)
+Q30 bases: 62095950(96.4777%)
+
+Filtering result:
+reads passed filter: 2153132
+reads failed due to low quality: 10002
+reads failed due to too many N: 14
+reads failed due to too short: 0
+reads failed due to too long: 823040
+
+Duplication rate: 84.1951%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G5_R1_val_1.fq -I 40559-3_R2_G5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G5.fq -O ../../step03_clean/plate3_r1/3_R2_G5.fq 
+fastp v0.23.1, time used: 17 seconds
+Read1 before filtering:
+total reads: 1107220
+total bases: 107625123
+Q20 bases: 105814134(98.3173%)
+Q30 bases: 102186302(94.9465%)
+
+Read2 before filtering:
+total reads: 1107220
+total bases: 109080920
+Q20 bases: 107044150(98.1328%)
+Q30 bases: 103224439(94.6311%)
+
+Read1 after filtering:
+total reads: 601178
+total bases: 39097227
+Q20 bases: 38641192(98.8336%)
+Q30 bases: 37540413(96.0181%)
+
+Read2 after filtering:
+total reads: 601178
+total bases: 39072665
+Q20 bases: 38698150(99.0415%)
+Q30 bases: 37740049(96.5894%)
+
+Filtering result:
+reads passed filter: 1202356
+reads failed due to low quality: 7980
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 1004100
+
+Duplication rate: 82.9998%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G6_R1_val_1.fq -I 40559-3_R2_G6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G6.fq -O ../../step03_clean/plate3_r1/3_R2_G6.fq 
+fastp v0.23.1, time used: 13 seconds
+Read1 before filtering:
+total reads: 2386109
+total bases: 208687970
+Q20 bases: 204704003(98.0909%)
+Q30 bases: 197031792(94.4145%)
+
+Read2 before filtering:
+total reads: 2386109
+total bases: 209527135
+Q20 bases: 206196201(98.4103%)
+Q30 bases: 199391219(95.1625%)
+
+Read1 after filtering:
+total reads: 1531192
+total bases: 91472496
+Q20 bases: 90312626(98.732%)
+Q30 bases: 87528802(95.6887%)
+
+Read2 after filtering:
+total reads: 1531192
+total bases: 91392235
+Q20 bases: 90683253(99.2242%)
+Q30 bases: 88627266(96.9746%)
+
+Filtering result:
+reads passed filter: 3062384
+reads failed due to low quality: 10392
+reads failed due to too many N: 2
+reads failed due to too short: 4
+reads failed due to too long: 1699436
+
+Duplication rate: 85.2435%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G7_R1_val_1.fq -I 40559-3_R2_G7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G7.fq -O ../../step03_clean/plate3_r1/3_R2_G7.fq 
+fastp v0.23.1, time used: 22 seconds
+Read1 before filtering:
+total reads: 2133301
+total bases: 180707900
+Q20 bases: 177613274(98.2875%)
+Q30 bases: 171573090(94.945%)
+
+Read2 before filtering:
+total reads: 2133301
+total bases: 182257189
+Q20 bases: 179590217(98.5367%)
+Q30 bases: 174032180(95.4871%)
+
+Read1 after filtering:
+total reads: 1435626
+total bases: 86167633
+Q20 bases: 85187783(98.8629%)
+Q30 bases: 82770589(96.0576%)
+
+Read2 after filtering:
+total reads: 1435626
+total bases: 86085989
+Q20 bases: 85468121(99.2823%)
+Q30 bases: 83636593(97.1547%)
+
+Filtering result:
+reads passed filter: 2871252
+reads failed due to low quality: 9582
+reads failed due to too many N: 8
+reads failed due to too short: 2
+reads failed due to too long: 1385758
+
+Duplication rate: 85.2775%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G8_R1_val_1.fq -I 40559-3_R2_G8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G8.fq -O ../../step03_clean/plate3_r1/3_R2_G8.fq 
+fastp v0.23.1, time used: 19 seconds
+Read1 before filtering:
+total reads: 904651
+total bases: 90996987
+Q20 bases: 89221489(98.0488%)
+Q30 bases: 85693873(94.1722%)
+
+Read2 before filtering:
+total reads: 904651
+total bases: 91317342
+Q20 bases: 89814379(98.3541%)
+Q30 bases: 86624704(94.8612%)
+
+Read1 after filtering:
+total reads: 473803
+total bases: 32151782
+Q20 bases: 31713833(98.6379%)
+Q30 bases: 30674801(95.4062%)
+
+Read2 after filtering:
+total reads: 473803
+total bases: 32135321
+Q20 bases: 31843279(99.0912%)
+Q30 bases: 31012093(96.5047%)
+
+Filtering result:
+reads passed filter: 947606
+reads failed due to low quality: 4298
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 857394
+
+Duplication rate: 82.4262%
+
+Insert size peak (evaluated by paired-end reads): 71
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_G9_R1_val_1.fq -I 40559-3_R2_G9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_G9.fq -O ../../step03_clean/plate3_r1/3_R2_G9.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 490301
+total bases: 44309708
+Q20 bases: 43535497(98.2527%)
+Q30 bases: 41975643(94.7324%)
+
+Read2 before filtering:
+total reads: 490301
+total bases: 44524137
+Q20 bases: 43872071(98.5355%)
+Q30 bases: 42469131(95.3845%)
+
+Read1 after filtering:
+total reads: 308518
+total bases: 19521782
+Q20 bases: 19268020(98.7001%)
+Q30 bases: 18663401(95.603%)
+
+Read2 after filtering:
+total reads: 308518
+total bases: 19503875
+Q20 bases: 19342001(99.17%)
+Q30 bases: 18885204(96.828%)
+
+Filtering result:
+reads passed filter: 617036
+reads failed due to low quality: 1890
+reads failed due to too many N: 0
+reads failed due to too short: 0
+reads failed due to too long: 361676
+
+Duplication rate: 84.4308%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H1_R1_val_1.fq -I 40559-3_R2_H1_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H1.fq -O ../../step03_clean/plate3_r1/3_R2_H1.fq 
+fastp v0.23.1, time used: 8 seconds
+Read1 before filtering:
+total reads: 661079
+total bases: 64704205
+Q20 bases: 63709615(98.4629%)
+Q30 bases: 61650924(95.2812%)
+
+Read2 before filtering:
+total reads: 661079
+total bases: 65395556
+Q20 bases: 64360335(98.417%)
+Q30 bases: 62178438(95.0805%)
+
+Read1 after filtering:
+total reads: 356349
+total bases: 23499588
+Q20 bases: 23236661(98.8811%)
+Q30 bases: 22593870(96.1458%)
+
+Read2 after filtering:
+total reads: 356349
+total bases: 23484290
+Q20 bases: 23280179(99.1309%)
+Q30 bases: 22707075(96.6905%)
+
+Filtering result:
+reads passed filter: 712698
+reads failed due to low quality: 2722
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 606734
+
+Duplication rate: 83.6213%
+
+Insert size peak (evaluated by paired-end reads): 69
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H10_R1_val_1.fq -I 40559-3_R2_H10_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H10.fq -O ../../step03_clean/plate3_r1/3_R2_H10.fq 
+fastp v0.23.1, time used: 7 seconds
+Read1 before filtering:
+total reads: 658150
+total bases: 61045072
+Q20 bases: 59858451(98.0562%)
+Q30 bases: 57499748(94.1923%)
+
+Read2 before filtering:
+total reads: 658150
+total bases: 61046335
+Q20 bases: 60159590(98.5474%)
+Q30 bases: 58207340(95.3494%)
+
+Read1 after filtering:
+total reads: 396303
+total bases: 25338763
+Q20 bases: 24999164(98.6598%)
+Q30 bases: 24196305(95.4913%)
+
+Read2 after filtering:
+total reads: 396303
+total bases: 25311430
+Q20 bases: 25106563(99.1906%)
+Q30 bases: 24516364(96.8589%)
+
+Filtering result:
+reads passed filter: 792606
+reads failed due to low quality: 2594
+reads failed due to too many N: 0
+reads failed due to too short: 2
+reads failed due to too long: 521098
+
+Duplication rate: 83.1034%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H11_R1_val_1.fq -I 40559-3_R2_H11_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H11.fq -O ../../step03_clean/plate3_r1/3_R2_H11.fq 
+fastp v0.23.1, time used: 6 seconds
+Read1 before filtering:
+total reads: 940513
+total bases: 85231341
+Q20 bases: 83902629(98.4411%)
+Q30 bases: 81196250(95.2657%)
+
+Read2 before filtering:
+total reads: 940513
+total bases: 86284914
+Q20 bases: 84940912(98.4424%)
+Q30 bases: 82104576(95.1552%)
+
+Read1 after filtering:
+total reads: 570615
+total bases: 35139570
+Q20 bases: 34753818(98.9022%)
+Q30 bases: 33814985(96.2305%)
+
+Read2 after filtering:
+total reads: 570615
+total bases: 35108750
+Q20 bases: 34818580(99.1735%)
+Q30 bases: 33983918(96.7961%)
+
+Filtering result:
+reads passed filter: 1141230
+reads failed due to low quality: 3748
+reads failed due to too many N: 6
+reads failed due to too short: 2
+reads failed due to too long: 736040
+
+Duplication rate: 83.8254%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H2_R1_val_1.fq -I 40559-3_R2_H2_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H2.fq -O ../../step03_clean/plate3_r1/3_R2_H2.fq 
+fastp v0.23.1, time used: 8 seconds
+Read1 before filtering:
+total reads: 1353525
+total bases: 117963110
+Q20 bases: 115859273(98.2165%)
+Q30 bases: 111732625(94.7183%)
+
+Read2 before filtering:
+total reads: 1353525
+total bases: 118321940
+Q20 bases: 116538149(98.4924%)
+Q30 bases: 112814871(95.3457%)
+
+Read1 after filtering:
+total reads: 870266
+total bases: 51701440
+Q20 bases: 51082419(98.8027%)
+Q30 bases: 49599361(95.9342%)
+
+Read2 after filtering:
+total reads: 870266
+total bases: 51628912
+Q20 bases: 51223402(99.2146%)
+Q30 bases: 50084385(97.0084%)
+
+Filtering result:
+reads passed filter: 1740532
+reads failed due to low quality: 5548
+reads failed due to too many N: 6
+reads failed due to too short: 2
+reads failed due to too long: 960962
+
+Duplication rate: 84.1088%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H3_R1_val_1.fq -I 40559-3_R2_H3_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H3.fq -O ../../step03_clean/plate3_r1/3_R2_H3.fq 
+fastp v0.23.1, time used: 11 seconds
+Read1 before filtering:
+total reads: 1159250
+total bases: 100770291
+Q20 bases: 98972496(98.2159%)
+Q30 bases: 95421224(94.6918%)
+
+Read2 before filtering:
+total reads: 1159250
+total bases: 101285265
+Q20 bases: 99382310(98.1212%)
+Q30 bases: 95867224(94.6507%)
+
+Read1 after filtering:
+total reads: 755671
+total bases: 45475318
+Q20 bases: 44933762(98.8091%)
+Q30 bases: 43602620(95.8819%)
+
+Read2 after filtering:
+total reads: 755671
+total bases: 45443669
+Q20 bases: 45006069(99.037%)
+Q30 bases: 43903723(96.6113%)
+
+Filtering result:
+reads passed filter: 1511342
+reads failed due to low quality: 7426
+reads failed due to too many N: 8
+reads failed due to too short: 2
+reads failed due to too long: 799722
+
+Duplication rate: 82.9863%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H5_R1_val_1.fq -I 40559-3_R2_H5_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H5.fq -O ../../step03_clean/plate3_r1/3_R2_H5.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 989881
+total bases: 86922365
+Q20 bases: 85578370(98.4538%)
+Q30 bases: 82880043(95.3495%)
+
+Read2 before filtering:
+total reads: 989881
+total bases: 87991795
+Q20 bases: 86433173(98.2287%)
+Q30 bases: 83477211(94.8693%)
+
+Read1 after filtering:
+total reads: 623748
+total bases: 37412331
+Q20 bases: 37019345(98.9496%)
+Q30 bases: 36050098(96.3589%)
+
+Read2 after filtering:
+total reads: 623748
+total bases: 37385505
+Q20 bases: 37046031(99.092%)
+Q30 bases: 36152016(96.7006%)
+
+Filtering result:
+reads passed filter: 1247496
+reads failed due to low quality: 6022
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 726240
+
+Duplication rate: 83.5964%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H6_R1_val_1.fq -I 40559-3_R2_H6_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H6.fq -O ../../step03_clean/plate3_r1/3_R2_H6.fq 
+fastp v0.23.1, time used: 9 seconds
+Read1 before filtering:
+total reads: 1100555
+total bases: 99159701
+Q20 bases: 97327058(98.1518%)
+Q30 bases: 93684878(94.4788%)
+
+Read2 before filtering:
+total reads: 1100555
+total bases: 99576784
+Q20 bases: 98096346(98.5133%)
+Q30 bases: 94954327(95.3579%)
+
+Read1 after filtering:
+total reads: 696870
+total bases: 43881543
+Q20 bases: 43313409(98.7053%)
+Q30 bases: 41943044(95.5824%)
+
+Read2 after filtering:
+total reads: 696870
+total bases: 43849281
+Q20 bases: 43521691(99.2529%)
+Q30 bases: 42560955(97.0619%)
+
+Filtering result:
+reads passed filter: 1393740
+reads failed due to low quality: 4428
+reads failed due to too many N: 6
+reads failed due to too short: 0
+reads failed due to too long: 802936
+
+Duplication rate: 83.868%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H7_R1_val_1.fq -I 40559-3_R2_H7_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H7.fq -O ../../step03_clean/plate3_r1/3_R2_H7.fq 
+fastp v0.23.1, time used: 10 seconds
+Read1 before filtering:
+total reads: 1479244
+total bases: 121863457
+Q20 bases: 119879514(98.372%)
+Q30 bases: 115913052(95.1172%)
+
+Read2 before filtering:
+total reads: 1479244
+total bases: 122903278
+Q20 bases: 121172592(98.5918%)
+Q30 bases: 117445854(95.5596%)
+
+Read1 after filtering:
+total reads: 1019809
+total bases: 59695636
+Q20 bases: 59041200(98.9037%)
+Q30 bases: 57406180(96.1648%)
+
+Read2 after filtering:
+total reads: 1019809
+total bases: 59638713
+Q20 bases: 59223856(99.3044%)
+Q30 bases: 57945862(97.1615%)
+
+Filtering result:
+reads passed filter: 2039618
+reads failed due to low quality: 5744
+reads failed due to too many N: 4
+reads failed due to too short: 0
+reads failed due to too long: 913122
+
+Duplication rate: 85.7191%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H8_R1_val_1.fq -I 40559-3_R2_H8_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H8.fq -O ../../step03_clean/plate3_r1/3_R2_H8.fq 
+fastp v0.23.1, time used: 12 seconds
+Read1 before filtering:
+total reads: 904329
+total bases: 86130706
+Q20 bases: 84524740(98.1354%)
+Q30 bases: 81314864(94.4087%)
+
+Read2 before filtering:
+total reads: 904329
+total bases: 86369116
+Q20 bases: 84978248(98.3896%)
+Q30 bases: 82092083(95.048%)
+
+Read1 after filtering:
+total reads: 520769
+total bases: 33865203
+Q20 bases: 33421045(98.6885%)
+Q30 bases: 32350158(95.5262%)
+
+Read2 after filtering:
+total reads: 520769
+total bases: 33838319
+Q20 bases: 33542861(99.1269%)
+Q30 bases: 32723838(96.7065%)
+
+Filtering result:
+reads passed filter: 1041538
+reads failed due to low quality: 4078
+reads failed due to too many N: 8
+reads failed due to too short: 0
+reads failed due to too long: 763034
+
+Duplication rate: 83.4876%
+
+Insert size peak (evaluated by paired-end reads): 38
+
+JSON report: fastp.json
+HTML report: fastp.html
+
+fastp -i 40559-3_R1_H9_R1_val_1.fq -I 40559-3_R2_H9_R2_val_2.fq -q 20 -A --length_limit 110 -o ../../step03_clean/plate3_r1/3_R1_H9.fq -O ../../step03_clean/plate3_r1/3_R2_H9.fq 
+fastp v0.23.1, time used: 8 seconds
