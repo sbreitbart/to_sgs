@@ -1,0 +1,13 @@
+#!/bin/bash
+#SBATCH --job-name=align_pl3_r2_lastHsamples
+#SBATCH --mem-per-cpu=100G
+#SBATCH --time=5:00:00
+#SBATCH --account=def-wagnerh1
+#SBATCH --mail-user=sophie.breitbart@mail.utoronto.ca
+#SBATCH --mail-type=ALL
+
+module load bwa/0.7.17
+
+while read ident; do 
+  bwa mem ~/scratch/genome_Asyriaca/Asclepias_syriaca_v1.0_chromosomes.fa 3A_R1_${ident}.fq 3A_R2_${ident}.fq > ../../step04_align/plate3_r2/3A_${ident}.sam
+done <last4_H_samples.txt
