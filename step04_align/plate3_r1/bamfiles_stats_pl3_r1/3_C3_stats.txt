@@ -1,0 +1,18 @@
+
+**********************************************
+Stats for BAM file(s): 
+**********************************************
+
+Total reads:       1967033
+Mapped reads:      1930475	(98.1415%)
+Forward strand:    1001818	(50.9304%)
+Reverse strand:    965215	(49.0696%)
+Failed QC:         0	(0%)
+Duplicates:        0	(0%)
+Paired-end reads:  1967033	(100%)
+'Proper-pairs':    1922662	(97.7443%)
+Both pairs mapped: 1930409	(98.1381%)
+Read 1:            983496
+Read 2:            983537
+Singletons:        66	(0.00335531%)
+

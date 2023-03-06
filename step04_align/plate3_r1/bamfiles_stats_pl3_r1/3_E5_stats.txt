@@ -1,0 +1,13 @@
+
+**********************************************
+Stats for BAM file(s): 
+**********************************************
+
+Total reads:       0
+Mapped reads:      0	(-nan%)
+Forward strand:    0	(-nan%)
+Reverse strand:    0	(-nan%)
+Failed QC:         0	(-nan%)
+Duplicates:        0	(-nan%)
+Paired-end reads:  0	(-nan%)
+
