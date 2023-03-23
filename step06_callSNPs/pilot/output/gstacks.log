@@ -1,0 +1,37 @@
+gstacks v2.62, executed 2023-03-08 12:07:33 (zlib-1.2.11)
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/gstacks -I bamfiles/ -M pop_map_pilot.txt -O output
+Locus/sample distributions will be written to 'output/gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: reference-based
+  Population map: 'pop_map_pilot.txt'
+  Input files: 4, e.g. 'bamfiles/1.2_2E10_sorted.bam'
+  Output to: 'output/'
+  Model: marukilow (var_alpha: 0.01, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1K...
+2K...
+5K...
+done.
+
+Read 16647512 BAM records:
+  kept 8738156 primary alignments (52.8%), of which 4390856 reverse reads
+  skipped 7364657 primary alignments with insufficient mapping qualities (44.5%)
+  skipped 233985 excessively soft-clipped primary alignments (1.4%)
+  skipped 205608 unmapped reads (1.2%)
+  skipped some suboptimal (secondary/supplementary) alignment records
+
+  Per-sample stats (details in 'gstacks.log.distribs'):
+    read 4161878.0 records/sample (3345647-5572027)
+    kept 47.6%-61.0% of these
+
+Built 7806 loci comprising 4347300 forward reads and 4344307 matching paired-end reads; mean insert length was 64.6 (sd: 22.4).
+
+Genotyped 7806 loci:
+  effective per-sample coverage: mean=284.4x, stdev=65.3x, min=199.9x, max=366.1x
+  mean number of sites per locus: 65.9
+  a consistent phasing was found for 776 of out 856 (90.7%) diploid loci needing phasing
+
+gstacks is done.

@@ -1,0 +1,358 @@
+# Note: Individual distributions can be extracted using the `stacks-dist-extract` utility.
+#       e.g. `stacks-dist-extract populations.log.distribs dist_name`
+
+BEGIN batch_progress
+AS1.0ch10: analyzed 521 loci; filtered 0 loci; 521 loci seen.
+    16731 genomic sites, of which 11385 were covered by multiple loci (68.0%).
+AS1.0ch03: analyzed 696 loci; filtered 0 loci; 696 loci seen.
+    21224 genomic sites, of which 14408 were covered by multiple loci (67.9%).
+AS1.0ch01: analyzed 846 loci; filtered 0 loci; 846 loci seen.
+    26904 genomic sites, of which 18741 were covered by multiple loci (69.7%).
+AS1.0ch04: analyzed 617 loci; filtered 0 loci; 617 loci seen.
+    19889 genomic sites, of which 13551 were covered by multiple loci (68.1%).
+AS1.0ch11: analyzed 464 loci; filtered 0 loci; 464 loci seen.
+    15301 genomic sites, of which 9319 were covered by multiple loci (60.9%).
+AS1.0ch06: analyzed 584 loci; filtered 0 loci; 584 loci seen.
+    18312 genomic sites, of which 12057 were covered by multiple loci (65.8%).
+AS1.0ch02: analyzed 735 loci; filtered 0 loci; 735 loci seen.
+    23504 genomic sites, of which 16347 were covered by multiple loci (69.5%).
+AS1.0ch08: analyzed 624 loci; filtered 0 loci; 624 loci seen.
+    18564 genomic sites, of which 12542 were covered by multiple loci (67.6%).
+AS1.0ch07: analyzed 717 loci; filtered 0 loci; 717 loci seen.
+    22271 genomic sites, of which 15509 were covered by multiple loci (69.6%).
+Scaff014: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    78 genomic sites, of which 0 were covered by multiple loci (0.0%).
+AS1.0ch05: analyzed 719 loci; filtered 0 loci; 719 loci seen.
+    22727 genomic sites, of which 16286 were covered by multiple loci (71.7%).
+AS1.0ch09: analyzed 502 loci; filtered 0 loci; 502 loci seen.
+    15124 genomic sites, of which 10857 were covered by multiple loci (71.8%).
+Scaff022: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    54 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff023: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    106 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff024: analyzed 40 loci; filtered 0 loci; 40 loci seen.
+    1201 genomic sites, of which 1015 were covered by multiple loci (84.5%).
+Scaff026: analyzed 21 loci; filtered 0 loci; 21 loci seen.
+    742 genomic sites, of which 473 were covered by multiple loci (63.7%).
+Scaff032: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    73 genomic sites, of which 72 were covered by multiple loci (98.6%).
+Scaff039: analyzed 16 loci; filtered 0 loci; 16 loci seen.
+    428 genomic sites, of which 383 were covered by multiple loci (89.5%).
+Scaff040: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    171 genomic sites, of which 100 were covered by multiple loci (58.5%).
+Scaff041: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    186 genomic sites, of which 43 were covered by multiple loci (23.1%).
+Scaff044: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    102 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff059: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    97 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff062: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    157 genomic sites, of which 109 were covered by multiple loci (69.4%).
+Scaff076: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    182 genomic sites, of which 182 were covered by multiple loci (100.0%).
+Scaff086: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    53 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff092: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    142 genomic sites, of which 142 were covered by multiple loci (100.0%).
+Scaff099: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    38 genomic sites, of which 38 were covered by multiple loci (100.0%).
+Scaff102: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    30 genomic sites, of which 30 were covered by multiple loci (100.0%).
+Scaff105: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    160 genomic sites, of which 160 were covered by multiple loci (100.0%).
+Scaff106: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    76 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff111: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    110 genomic sites, of which 79 were covered by multiple loci (71.8%).
+Scaff121: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    28 genomic sites, of which 28 were covered by multiple loci (100.0%).
+Scaff122: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    81 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff147: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    102 genomic sites, of which 34 were covered by multiple loci (33.3%).
+Scaff148: analyzed 13 loci; filtered 0 loci; 13 loci seen.
+    336 genomic sites, of which 297 were covered by multiple loci (88.4%).
+Scaff153: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    110 genomic sites, of which 34 were covered by multiple loci (30.9%).
+Scaff159: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    40 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff164: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    140 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff165: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    126 genomic sites, of which 126 were covered by multiple loci (100.0%).
+Scaff167: analyzed 5 loci; filtered 0 loci; 5 loci seen.
+    95 genomic sites, of which 46 were covered by multiple loci (48.4%).
+Scaff170: analyzed 7 loci; filtered 0 loci; 7 loci seen.
+    190 genomic sites, of which 107 were covered by multiple loci (56.3%).
+Scaff177: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    33 genomic sites, of which 33 were covered by multiple loci (100.0%).
+Scaff183: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    55 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff190: analyzed 7 loci; filtered 0 loci; 7 loci seen.
+    228 genomic sites, of which 116 were covered by multiple loci (50.9%).
+Scaff195: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    172 genomic sites, of which 123 were covered by multiple loci (71.5%).
+Scaff205: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    66 genomic sites, of which 65 were covered by multiple loci (98.5%).
+Scaff208: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    55 genomic sites, of which 55 were covered by multiple loci (100.0%).
+Scaff225: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    55 genomic sites, of which 55 were covered by multiple loci (100.0%).
+Scaff244: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    89 genomic sites, of which 87 were covered by multiple loci (97.8%).
+Scaff245: analyzed 5 loci; filtered 0 loci; 5 loci seen.
+    188 genomic sites, of which 183 were covered by multiple loci (97.3%).
+Scaff247: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    157 genomic sites, of which 157 were covered by multiple loci (100.0%).
+Scaff252: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    110 genomic sites, of which 110 were covered by multiple loci (100.0%).
+Scaff260: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    104 genomic sites, of which 64 were covered by multiple loci (61.5%).
+Scaff261: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    63 genomic sites, of which 60 were covered by multiple loci (95.2%).
+Scaff263: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    56 genomic sites, of which 56 were covered by multiple loci (100.0%).
+Scaff264: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    97 genomic sites, of which 96 were covered by multiple loci (99.0%).
+Scaff266: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    182 genomic sites, of which 74 were covered by multiple loci (40.7%).
+Scaff282: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    75 genomic sites, of which 75 were covered by multiple loci (100.0%).
+Scaff287: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    76 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff297: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    34 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff301: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    55 genomic sites, of which 55 were covered by multiple loci (100.0%).
+Scaff313: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    150 genomic sites, of which 144 were covered by multiple loci (96.0%).
+Scaff324: analyzed 9 loci; filtered 0 loci; 9 loci seen.
+    200 genomic sites, of which 200 were covered by multiple loci (100.0%).
+Scaff325: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    65 genomic sites, of which 63 were covered by multiple loci (96.9%).
+Scaff328: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    49 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff332: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    102 genomic sites, of which 102 were covered by multiple loci (100.0%).
+Scaff341: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    33 genomic sites, of which 33 were covered by multiple loci (100.0%).
+Scaff342: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    62 genomic sites, of which 31 were covered by multiple loci (50.0%).
+Scaff345: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    186 genomic sites, of which 182 were covered by multiple loci (97.8%).
+Scaff349: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    26 genomic sites, of which 26 were covered by multiple loci (100.0%).
+Scaff352: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    55 genomic sites, of which 55 were covered by multiple loci (100.0%).
+Scaff365: analyzed 9 loci; filtered 0 loci; 9 loci seen.
+    177 genomic sites, of which 173 were covered by multiple loci (97.7%).
+Scaff367: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    37 genomic sites, of which 37 were covered by multiple loci (100.0%).
+Scaff370: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    37 genomic sites, of which 37 were covered by multiple loci (100.0%).
+Scaff372: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    76 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff379: analyzed 9 loci; filtered 0 loci; 9 loci seen.
+    183 genomic sites, of which 183 were covered by multiple loci (100.0%).
+Scaff385: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    96 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff399: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    180 genomic sites, of which 150 were covered by multiple loci (83.3%).
+Scaff403: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    76 genomic sites, of which 28 were covered by multiple loci (36.8%).
+Scaff408: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    243 genomic sites, of which 107 were covered by multiple loci (44.0%).
+Scaff413: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    38 genomic sites, of which 38 were covered by multiple loci (100.0%).
+Scaff430: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    175 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff434: analyzed 5 loci; filtered 0 loci; 5 loci seen.
+    177 genomic sites, of which 72 were covered by multiple loci (40.7%).
+Scaff446: analyzed 5 loci; filtered 0 loci; 5 loci seen.
+    189 genomic sites, of which 184 were covered by multiple loci (97.4%).
+Scaff457: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    101 genomic sites, of which 101 were covered by multiple loci (100.0%).
+Scaff458: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    73 genomic sites, of which 69 were covered by multiple loci (94.5%).
+Scaff463: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    120 genomic sites, of which 52 were covered by multiple loci (43.3%).
+Scaff471: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    215 genomic sites, of which 106 were covered by multiple loci (49.3%).
+Scaff478: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    82 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff483: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    128 genomic sites, of which 91 were covered by multiple loci (71.1%).
+Scaff485: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    82 genomic sites, of which 82 were covered by multiple loci (100.0%).
+Scaff490: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    38 genomic sites, of which 38 were covered by multiple loci (100.0%).
+Scaff507: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    110 genomic sites, of which 110 were covered by multiple loci (100.0%).
+Scaff514: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    46 genomic sites, of which 46 were covered by multiple loci (100.0%).
+Scaff519: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    61 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff525: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    110 genomic sites, of which 110 were covered by multiple loci (100.0%).
+Scaff534: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    120 genomic sites, of which 40 were covered by multiple loci (33.3%).
+Scaff536: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    86 genomic sites, of which 85 were covered by multiple loci (98.8%).
+Scaff541: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    89 genomic sites, of which 89 were covered by multiple loci (100.0%).
+Scaff553: analyzed 8 loci; filtered 0 loci; 8 loci seen.
+    185 genomic sites, of which 106 were covered by multiple loci (57.3%).
+Scaff556: analyzed 4 loci; filtered 0 loci; 4 loci seen.
+    69 genomic sites, of which 67 were covered by multiple loci (97.1%).
+Scaff580: analyzed 7 loci; filtered 0 loci; 7 loci seen.
+    123 genomic sites, of which 106 were covered by multiple loci (86.2%).
+Scaff587: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    45 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff623: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    41 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff625: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    129 genomic sites, of which 51 were covered by multiple loci (39.5%).
+Scaff633: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    37 genomic sites, of which 37 were covered by multiple loci (100.0%).
+Scaff634: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    44 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff641: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    42 genomic sites, of which 42 were covered by multiple loci (100.0%).
+Scaff651: analyzed 2 loci; filtered 0 loci; 2 loci seen.
+    46 genomic sites, of which 46 were covered by multiple loci (100.0%).
+Scaff654: analyzed 1 loci; filtered 0 loci; 1 loci seen.
+    89 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff661: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    283 genomic sites, of which 0 were covered by multiple loci (0.0%).
+Scaff662: analyzed 11 loci; filtered 0 loci; 11 loci seen.
+    381 genomic sites, of which 195 were covered by multiple loci (51.2%).
+Scaff663: analyzed 46 loci; filtered 0 loci; 46 loci seen.
+    1191 genomic sites, of which 876 were covered by multiple loci (73.6%).
+Scaff664: analyzed 44 loci; filtered 0 loci; 44 loci seen.
+    1311 genomic sites, of which 1007 were covered by multiple loci (76.8%).
+Scaff665: analyzed 26 loci; filtered 0 loci; 26 loci seen.
+    389 genomic sites, of which 351 were covered by multiple loci (90.2%).
+Scaff667: analyzed 7 loci; filtered 0 loci; 7 loci seen.
+    232 genomic sites, of which 118 were covered by multiple loci (50.9%).
+Scaff668: analyzed 14 loci; filtered 0 loci; 14 loci seen.
+    450 genomic sites, of which 326 were covered by multiple loci (72.4%).
+Scaff669: analyzed 91 loci; filtered 0 loci; 91 loci seen.
+    3311 genomic sites, of which 2108 were covered by multiple loci (63.7%).
+Scaff671: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    161 genomic sites, of which 138 were covered by multiple loci (85.7%).
+Scaff673: analyzed 6 loci; filtered 0 loci; 6 loci seen.
+    308 genomic sites, of which 128 were covered by multiple loci (41.6%).
+Scaff677: analyzed 79 loci; filtered 0 loci; 79 loci seen.
+    2054 genomic sites, of which 1473 were covered by multiple loci (71.7%).
+Scaff679: analyzed 3 loci; filtered 0 loci; 3 loci seen.
+    49 genomic sites, of which 48 were covered by multiple loci (98.0%).
+Scaff681: analyzed 21 loci; filtered 0 loci; 21 loci seen.
+    782 genomic sites, of which 483 were covered by multiple loci (61.8%).
+Scaff682: analyzed 26 loci; filtered 0 loci; 26 loci seen.
+    848 genomic sites, of which 775 were covered by multiple loci (91.4%).
+Scaff685: analyzed 10 loci; filtered 0 loci; 10 loci seen.
+    365 genomic sites, of which 203 were covered by multiple loci (55.6%).
+END batch_progress
+
+BEGIN samples_per_loc_prefilters
+# Distribution of valid samples matched to a catalog locus prior to filtering.
+n_samples	n_loci
+1	2923
+2	899
+3	984
+4	3000
+END samples_per_loc_prefilters
+
+BEGIN missing_samples_per_loc_prefilters
+# Distribution of missing samples for each catalog locus prior to filtering.
+Absent samples at locus	Count
+0	3000
+1	984
+2	899
+3	2923
+END missing_samples_per_loc_prefilters
+
+BEGIN snps_per_loc_prefilters
+# Distribution of the number of SNPs per catalog locus prior to filtering.
+n_snps	n_loci
+0	5523
+1	1045
+2	548
+3	324
+4	159
+5	93
+6	44
+7	22
+8	21
+9	15
+10	7
+11	1
+12	2
+13	1
+20	1
+END snps_per_loc_prefilters
+
+BEGIN samples_per_loc_postfilters
+# Distribution of valid samples matched to a catalog locus after filtering.
+n_samples	n_loci
+1	2923
+2	899
+3	984
+4	3000
+END samples_per_loc_postfilters
+
+BEGIN missing_samples_per_loc_postfilters
+# Distribution of missing samples for each catalog locus after filtering.
+Absent samples at locus	Count
+0	3000
+1	984
+2	899
+3	2923
+END missing_samples_per_loc_postfilters
+
+BEGIN snps_per_loc_postfilters
+# Distribution of the number of SNPs per catalog locus (after filtering).
+n_snps	n_loci
+0	5523
+1	1045
+2	548
+3	324
+4	159
+5	93
+6	44
+7	22
+8	21
+9	15
+10	7
+11	1
+12	2
+13	1
+20	1
+END snps_per_loc_postfilters
+
+BEGIN loci_per_sample_prefilters
+# Number of loci per individual sample (before filtering).
+sample	n_loci	present_loci	missing_loci	frequency_missing
+1.2_2E10_sorted	7806	5213	2593	0.3322
+1.2_2F11_sorted	7806	4667	3139	0.4021
+1.2_2E11_sorted	7806	4681	3125	0.4003
+1.2_2F10_sorted	7806	5112	2694	0.3451
+END loci_per_sample_prefilters
+
+BEGIN loci_per_sample
+# Number of loci per individual sample (after filtering).
+sample	n_loci	present_loci	missing_loci	frequency_missing
+1.2_2E10_sorted	7806	5213	2593	0.3322
+1.2_2F11_sorted	7806	4667	3139	0.4021
+1.2_2E11_sorted	7806	4681	3125	0.4003
+1.2_2F10_sorted	7806	5112	2694	0.3451
+END loci_per_sample
+
+BEGIN variant_sites_per_sample
+# Number of variant sites per individual sample (after filtering).
+sample	n_sites	present_sites	missing_sites	frequency_missing
+1.2_2E10_sorted	5073	4083	990	0.1952
+1.2_2F11_sorted	5073	3681	1392	0.2744
+1.2_2E11_sorted	5073	3855	1218	0.2401
+1.2_2F10_sorted	5073	3837	1236	0.2436
+END variant_sites_per_sample

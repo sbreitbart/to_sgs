@@ -1,0 +1,222 @@
+ref_map.pl version 2.62 started at 2023-03-08 12:07:33
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/ref_map.pl --samples bamfiles --popmap pop_map_pilot.txt --out-path output
+
+gstacks
+==========
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/gstacks -I bamfiles/ -M pop_map_pilot.txt -O output
+
+Logging to 'output/gstacks.log'.
+Locus/sample distributions will be written to 'output/gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: reference-based
+  Population map: 'pop_map_pilot.txt'
+  Input files: 4, e.g. 'bamfiles/1.2_2E10_sorted.bam'
+  Output to: 'output/'
+  Model: marukilow (var_alpha: 0.01, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1K...
+2K...
+5K...
+done.
+
+Read 16647512 BAM records:
+  kept 8738156 primary alignments (52.8%), of which 4390856 reverse reads
+  skipped 7364657 primary alignments with insufficient mapping qualities (44.5%)
+  skipped 233985 excessively soft-clipped primary alignments (1.4%)
+  skipped 205608 unmapped reads (1.2%)
+  skipped some suboptimal (secondary/supplementary) alignment records
+
+  Per-sample stats (details in 'gstacks.log.distribs'):
+    read 4161878.0 records/sample (3345647-5572027)
+    kept 47.6%-61.0% of these
+
+Built 7806 loci comprising 4347300 forward reads and 4344307 matching paired-end reads; mean insert length was 64.6 (sd: 22.4).
+
+Genotyped 7806 loci:
+  effective per-sample coverage: mean=284.4x, stdev=65.3x, min=199.9x, max=366.1x
+  mean number of sites per locus: 65.9
+  a consistent phasing was found for 776 of out 856 (90.7%) diploid loci needing phasing
+
+gstacks is done.
+
+populations
+==========
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/populations -P output -M pop_map_pilot.txt
+
+Logging to 'output/populations.log'.
+Locus/sample distributions will be written to 'output/populations.log.distribs'.
+populations parameters selected:
+  Percent samples limit per population: 0
+  Locus Population limit: 1
+  Percent samples overall: 0
+  Minor allele frequency cutoff: 0
+  Maximum observed heterozygosity cutoff: 1
+  Applying Fst correction: none.
+  Pi/Fis kernel smoothing: off
+  F-stats kernel smoothing: off
+  Bootstrap resampling: off
+
+Parsing population map...
+The population map contained 4 samples, 3 population(s), 1 group(s).
+Working on 4 samples.
+Working on 3 population(s):
+    5: 1.2_2E10_sorted, 1.2_2F11_sorted
+    47: 1.2_2E11_sorted
+    39: 1.2_2F10_sorted
+Working on 1 group(s) of populations:
+    defaultgrp: 5, 47, 39
+
+Raw haplotypes will be written to 'output/populations.haplotypes.tsv'
+Population-level summary statistics will be written to 'output/populations.sumstats.tsv'
+Population-level haplotype summary statistics will be written to 'output/populations.hapstats.tsv'
+
+Processing data in batches:
+  * load a batch of catalog loci and apply filters
+  * compute SNP- and haplotype-wise per-population statistics
+  * write the above statistics in the output files
+  * export the genotypes/haplotypes in specified format(s)
+More details in 'output/populations.log.distribs'.
+
+Now processing...
+AS1.0ch10 
+AS1.0ch03 
+AS1.0ch01 
+AS1.0ch04 
+AS1.0ch11 
+AS1.0ch06 
+AS1.0ch02 
+AS1.0ch08 
+AS1.0ch07 
+Scaff014 
+AS1.0ch05 
+AS1.0ch09 
+Scaff022 
+Scaff023 
+Scaff024 
+Scaff026 
+Scaff032 
+Scaff039 
+Scaff040 
+Scaff041 
+Scaff044 
+Scaff059 
+Scaff062 
+Scaff076 
+Scaff086 
+Scaff092 
+Scaff099 
+Scaff102 
+Scaff105 
+Scaff106 
+Scaff111 
+Scaff121 
+Scaff122 
+Scaff147 
+Scaff148 
+Scaff153 
+Scaff159 
+Scaff164 
+Scaff165 
+Scaff167 
+Scaff170 
+Scaff177 
+Scaff183 
+Scaff190 
+Scaff195 
+Scaff205 
+Scaff208 
+Scaff225 
+Scaff244 
+Scaff245 
+Scaff247 
+Scaff252 
+Scaff260 
+Scaff261 
+Scaff263 
+Scaff264 
+Scaff266 
+Scaff282 
+Scaff287 
+Scaff297 
+Scaff301 
+Scaff313 
+Scaff324 
+Scaff325 
+Scaff328 
+Scaff332 
+Scaff341 
+Scaff342 
+Scaff345 
+Scaff349 
+Scaff352 
+Scaff365 
+Scaff367 
+Scaff370 
+Scaff372 
+Scaff379 
+Scaff385 
+Scaff399 
+Scaff403 
+Scaff408 
+Scaff413 
+Scaff430 
+Scaff434 
+Scaff446 
+Scaff457 
+Scaff458 
+Scaff463 
+Scaff471 
+Scaff478 
+Scaff483 
+Scaff485 
+Scaff490 
+Scaff507 
+Scaff514 
+Scaff519 
+Scaff525 
+Scaff534 
+Scaff536 
+Scaff541 
+Scaff553 
+Scaff556 
+Scaff580 
+Scaff587 
+Scaff623 
+Scaff625 
+Scaff633 
+Scaff634 
+Scaff641 
+Scaff651 
+Scaff654 
+Scaff661 
+Scaff662 
+Scaff663 
+Scaff664 
+Scaff665 
+Scaff667 
+Scaff668 
+Scaff669 
+Scaff671 
+Scaff673 
+Scaff677 
+Scaff679 
+Scaff681 
+Scaff682 
+Scaff685 
+
+Removed 0 loci that did not pass sample/population constraints from 7806 loci.
+Kept 7806 loci, composed of 514928 sites; 0 of those sites were filtered, 5073 variant sites remained.
+    244973 genomic sites, of which 167512 were covered by multiple loci (68.4%).
+Mean genotyped sites per locus: 65.87bp (stderr 0.27).
+
+Population summary statistics (more detail in populations.sumstats_summary.tsv):
+  5: 1.6297 samples per locus; pi: 0.35835; all/variant/polymorphic sites: 418740/4764/2617; private alleles: 1679
+  47: 1 samples per locus; pi: 0.2275; all/variant/polymorphic sites: 313316/3855/877; private alleles: 682
+  39: 1 samples per locus; pi: 0.24498; all/variant/polymorphic sites: 341117/3837/940; private alleles: 701
+Populations is done.
+ref_map.pl is done.
+
+ref_map.pl completed at 2023-03-08 12:08:24

@@ -1,0 +1,10 @@
+Parsed population map: 4 files in 3 populations and 1 group.
+Found 4 sample file(s).
+
+Calling variants, genotypes and haplotypes...
+  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/gstacks -I bamfiles/ -M pop_map_pilot.txt -O output
+
+Calculating population-level summary statistics
+  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/populations -P output -M pop_map_pilot.txt
+
+ref_map.pl is done.

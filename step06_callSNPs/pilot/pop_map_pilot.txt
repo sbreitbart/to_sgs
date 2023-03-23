@@ -1,0 +1,4 @@
+1.2_2E10_sorted	5
+1.2_2E11_sorted	47
+1.2_2F10_sorted	39
+1.2_2F11_sorted	5
