@@ -1,0 +1,39 @@
+gstacks v2.62, executed 2023-04-12 14:04:03 (zlib-1.2.11)
+/cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/gstacks -I sorted_bamfiles/ -M pop_map2.txt -O output_refmap_run2
+Locus/sample distributions will be written to 'output_refmap_run2/gstacks.log.distribs'.
+
+Configuration for this run:
+  Input mode: reference-based
+  Population map: 'pop_map2.txt'
+  Input files: 261, e.g. 'sorted_bamfiles/1.2_1A10_sorted.bam'
+  Output to: 'output_refmap_run2/'
+  Model: marukilow (var_alpha: 0.01, gt_alpha: 0.05)
+
+Reading BAM headers...
+Processing all loci...
+1K...
+2K...
+5K...
+10K...
+20K...
+done.
+
+Read 1226142485 BAM records:
+  kept 665409400 primary alignments (54.6%), of which 334298168 reverse reads
+  skipped 495307413 primary alignments with insufficient mapping qualities (40.6%)
+  skipped 18884337 excessively soft-clipped primary alignments (1.5%)
+  skipped 39388834 unmapped reads (3.2%)
+  skipped some suboptimal (secondary/supplementary) alignment records
+
+  Per-sample stats (details in 'gstacks.log.distribs'):
+    read 4697863.9 records/sample (411657-13879141)
+    kept 41.0%-79.6% of these
+
+Built 48799 loci comprising 331111232 forward reads and 330918346 matching paired-end reads; mean insert length was 65.0 (sd: 22.7).
+
+Genotyped 48799 loci:
+  effective per-sample coverage: mean=401.9x, stdev=169.3x, min=39.7x, max=1111.5x
+  mean number of sites per locus: 68.7
+  a consistent phasing was found for 51088 of out 80198 (63.7%) diploid loci needing phasing
+
+gstacks is done.
