@@ -1,0 +1,26 @@
+PLINK v1.90b6.21 64-bit (19 Oct 2020)
+Options in effect:
+  --allow-extra-chr
+  --bfile mmaf0.05_R1
+  --out mmaf0.05_R1
+  --pca
+
+Hostname: gra-login1
+Working directory: /scratch/breitba1/step07_plink
+Start time: Mon May  8 15:26:03 2023
+
+Random number seed: 1683573963
+128539 MB RAM detected; reserving 64269 MB for main workspace.
+Allocated 6432 MB successfully, after larger attempt(s) failed.
+177 variants loaded from .bim file.
+261 people (0 males, 0 females, 261 ambiguous) loaded from .fam.
+Ambiguous sex IDs written to mmaf0.05_R1.nosex .
+Using up to 31 threads (change this with --threads).
+Before main variant filters, 261 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+177 variants and 261 people pass filters and QC.
+Note: No phenotypes present.
+Relationship matrix calculation complete.
+--pca: Results saved to mmaf0.05_R1.eigenval and mmaf0.05_R1.eigenvec .
+
+End time: Mon May  8 15:26:03 2023
