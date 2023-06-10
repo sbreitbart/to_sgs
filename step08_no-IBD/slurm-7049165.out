@@ -1,0 +1,10 @@
+Parsed population map: 256 files in 122 populations and 1 group.
+Found 256 sample file(s).
+
+Calling variants, genotypes and haplotypes...
+  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/gstacks -I sorted_bamfiles_no-IBD/ -M pop_map3.txt -O output_refmap_no-IBD
+
+Calculating population-level summary statistics
+  /cvmfs/soft.computecanada.ca/easybuild/software/2020/avx2/Core/stacks/2.62/bin/populations -P output_refmap_no-IBD -M pop_map3.txt
+
+ref_map.pl is done.
