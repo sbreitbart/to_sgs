@@ -1,0 +1,70 @@
+## Load libraries & functions
+
+library(here)
+library(tidyverse)
+library(magrittr)
+library(conStruct)
+library(fields)
+library(foreach)
+library(doParallel)
+
+
+print("loaded libraries")
+
+# import allele frequencies from txt file that contains a subset
+# because there were initially more samples than loci
+allele_frqs <- conStruct::structure2conStruct(
+  infile = "../populations.structure.txt",
+  onerowperind = FALSE,
+  start.loci = 3,
+  start.samples = 2,
+  missing.datum = -9,
+  outfile = "construct_data_20230612")
+
+
+## Load in other data
+### Geographic sampling coordinates
+coords <- read.csv("../conStruct_coords.csv") %>%
+  dplyr::select(-X) %>%
+  as.matrix()
+
+print("head(coords)")
+head(coords)
+
+
+
+# calculate pairwise great-circle distance between sampling coordinates
+distances <- fields::rdist.earth(coords,
+                            # distances in km
+                            miles = FALSE)
+print("head(distances)")
+head(distances)
+
+
+
+# Set the number of cores to be used
+num_cores <- 5
+
+# Initialize parallel backend using doParallel
+cl <- makeCluster(num_cores)
+registerDoParallel(cl)
+
+# # Run non-spatial model
+##  k = 3, 10,000 iterations, 5 chains
+#       the number of layers (K)
+#       the allele frequency data (freqs)
+#       the geographic distance matrix (geoDist)
+#       the sampling coordinates (coords)
+
+nonspatial_mod_run3 <- foreach(i = 1:num_cores, .packages = "conStruct") %dopar% {
+  conStruct(spatial = FALSE,
+            K = 3,
+            freqs = allele_frqs,
+            geoDist = NULL,
+            coords = coords,
+            prefix = paste0("nsp_K3_iter10000_chains5_", i),
+            n.chains = 5,
+            n.iter = 10000)
+}
+
+print("nonspatial mod run complete")
