@@ -1,0 +1,2 @@
+nsp_rep_1 nsp_rep_2 nsp_rep_3 nsp_rep_4 nsp_rep_5 nsp_rep_6 nsp_rep_7 nsp_rep_8
+-63.1986 -39.7622 -60.2892 -35.2172 -38.2396 -66.3045 -39.9586 -45.6603

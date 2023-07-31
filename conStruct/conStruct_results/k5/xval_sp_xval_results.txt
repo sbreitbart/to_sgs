@@ -1,0 +1,2 @@
+sp_rep_1 sp_rep_2 sp_rep_3 sp_rep_4 sp_rep_5 sp_rep_6 sp_rep_7 sp_rep_8
+0 0 0 0 0 0 0 0
