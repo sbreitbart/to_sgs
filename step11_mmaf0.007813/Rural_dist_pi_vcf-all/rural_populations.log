@@ -1,0 +1,15 @@
+
+VCFtools - 0.1.16
+(C) Adam Auton and Anthony Marcketta 2009
+
+Parameters as interpreted:
+	--vcf /home/breitba1/scratch/step11_mmaf0.007813/UR_dist_pi_vcf-all/populations.all.vcf
+	--keep /home/breitba1/step08_no-IBD/pop_map3_R_dist.txt
+	--out /home/breitba1/scratch/temp_step10/Rural_dist_pi_vcf-all/rural_populations
+	--recode
+
+Keeping individuals in 'keep' list
+After filtering, kept 106 out of 256 Individuals
+Outputting VCF file...
+After filtering, kept 352769 out of a possible 352769 Sites
+Run Time = 18.00 seconds
